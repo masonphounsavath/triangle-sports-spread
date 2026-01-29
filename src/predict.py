@@ -21,6 +21,8 @@ def main():
 if __name__ == "__main__":
     main()
 
+number = 0
+
 """
 predict.py
 
