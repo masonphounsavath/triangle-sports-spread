@@ -2,13 +2,12 @@ from pathlib import Path
 import json
 import pandas as pd
 import joblib
-
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_absolute_error
-
 from features import build_features_for_games
+from sklearn.ensemble import HistGradientBoostingRegressor
 
 DATA_PATH = Path("data/processed/all_games.csv")
 MODEL_PATH = Path("models/model.pkl")
@@ -31,10 +30,15 @@ def main():
     X_train, X_val = X.iloc[:split], X.iloc[split:]
     y_train, y_val = y.iloc[:split], y.iloc[split:]
 
-    model = Pipeline([
-        ("scaler", StandardScaler()),
-        ("ridge", Ridge(alpha=50.0))
-    ])
+    model = HistGradientBoostingRegressor(
+    loss="absolute_error",
+    learning_rate=0.05,
+    max_depth=6,
+    min_samples_leaf=40,
+    max_iter=1500,
+    early_stopping=True,
+    validation_fraction=0.1,
+    )
 
     model.fit(X_train, y_train)
     preds = model.predict(X_val)
