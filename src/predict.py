@@ -98,7 +98,7 @@ def main():
     preds = np.clip(preds, -40.0, 40.0)
 
     # Round to nearest half-point (basketball spread style)
-    preds = np.round(preds * 2) / 2
+    preds = np.round(preds, 3)
 
     # Avoid -0.0
     preds = np.where(preds == -0.0, 0.0, preds)

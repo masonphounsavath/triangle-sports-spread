@@ -2,9 +2,6 @@ from pathlib import Path
 import json
 import pandas as pd
 import joblib
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_absolute_error
 from features import build_features_for_games
 from sklearn.ensemble import HistGradientBoostingRegressor
