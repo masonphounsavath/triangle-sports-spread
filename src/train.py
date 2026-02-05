@@ -3,8 +3,8 @@ import json
 import pandas as pd
 import joblib
 from sklearn.metrics import mean_absolute_error
-from features import build_features_for_games
 from sklearn.ensemble import HistGradientBoostingRegressor
+from features import build_features_for_games
 
 DATA_PATH = Path("data/processed/all_games.csv")
 MODEL_PATH = Path("models/model.pkl")
@@ -12,6 +12,7 @@ FEATS_PATH = Path("models/feature_cols.json")
 
 def main():
     df = pd.read_csv(DATA_PATH, parse_dates=["date"])
+    df = df.sort_values("date").reset_index(drop=True)
 
     # Build features
     X, y, meta, feature_cols = build_features_for_games(
@@ -28,13 +29,14 @@ def main():
     y_train, y_val = y.iloc[:split], y.iloc[split:]
 
     model = HistGradientBoostingRegressor(
-    loss="absolute_error",
-    learning_rate=0.05,
-    max_depth=6,
-    min_samples_leaf=40,
-    max_iter=1500,
-    early_stopping=True,
-    validation_fraction=0.1,
+        loss="absolute_error",
+        learning_rate=0.05,
+        max_depth=6,
+        min_samples_leaf=40,
+        max_iter=1500,
+        early_stopping=True,
+        validation_fraction=0.1,
+        random_state=42,
     )
 
     model.fit(X_train, y_train)
@@ -48,6 +50,7 @@ def main():
     FEATS_PATH.write_text(json.dumps(feature_cols), encoding="utf-8")
 
     print(f"Saved model -> {MODEL_PATH}")
+    print("Validation starts at:", meta.iloc[split]["date"])
     print(f"Saved feature cols -> {FEATS_PATH}")
 
 if __name__ == "__main__":
