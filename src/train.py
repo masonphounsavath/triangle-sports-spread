@@ -36,7 +36,7 @@ def main():
     model = HistGradientBoostingRegressor(
         loss="absolute_error",
         learning_rate=0.05,
-        max_depth=6,
+        max_depth=7,
         min_samples_leaf=40,
         max_iter=1500,
         early_stopping=True,
