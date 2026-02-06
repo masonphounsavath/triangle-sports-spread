@@ -1,24 +1,654 @@
 date,away_team,home_team,away_score,home_score
+2010-12-05,Virginia,Virginia Tech,57,54
+2010-12-12,Clemson,Florida State,69,75
+2010-12-12,Boston College,Maryland,79,75
+2011-01-02,Miami,Duke,63,74
+2011-01-08,North Carolina,Virginia,62,56
+2011-01-08,Wake Forest,NC State,69,90
+2011-01-08,Florida State,Virginia Tech,59,71
+2011-01-08,Georgia Tech,Boston College,75,86
+2011-01-08,Miami,Clemson,72,79
+2011-01-09,Maryland,Duke,64,71
+2011-01-11,NC State,Boston College,66,75
+2011-01-12,Georgia Tech,Clemson,62,87
+2011-01-12,Duke,Florida State,61,66
+2011-01-12,Maryland,Wake Forest,74,55
+2011-01-13,Virginia Tech,North Carolina,61,64
+2011-01-15,Wake Forest,Virginia Tech,65,94
+2011-01-15,Boston College,Miami,71,72
+2011-01-15,NC State,Florida State,71,84
+2011-01-15,Virginia,Duke,60,76
+2011-01-16,North Carolina,Georgia Tech,58,78
+2011-01-18,Clemson,North Carolina,65,75
+2011-01-19,Virginia,Boston College,67,70
+2011-01-19,Wake Forest,Georgia Tech,39,74
+2011-01-19,Florida State,Miami,55,53
+2011-01-19,Duke,NC State,92,78
+2011-01-20,Virginia Tech,Maryland,74,57
+2011-01-22,Boston College,Florida State,51,67
+2011-01-22,Clemson,Maryland,77,79
+2011-01-22,Georgia Tech,Virginia,64,72
+2011-01-22,Duke,Wake Forest,83,59
+2011-01-23,Miami,NC State,70,72
+2011-01-25,NC State,Clemson,50,60
+2011-01-25,Virginia Tech,Georgia Tech,57,72
+2011-01-26,North Carolina,Miami,74,71
+2011-01-27,Boston College,Duke,68,84
+2011-01-27,Maryland,Virginia,66,42
+2011-01-29,Florida State,Clemson,44,62
+2011-01-29,NC State,North Carolina,64,84
+2011-01-29,Virginia,Wake Forest,71,76
+2011-01-30,Maryland,Georgia Tech,74,63
+2011-01-30,Miami,Virginia Tech,68,72
+2011-02-01,North Carolina,Boston College,106,74
+2011-02-01,Wake Forest,Florida State,61,85
+2011-02-02,Duke,Maryland,80,62
+2011-02-02,Virginia Tech,NC State,77,69
+2011-02-02,Clemson,Virginia,47,49
+2011-02-03,Georgia Tech,Miami,57,59
+2011-02-05,Virginia,Miami,68,70
+2011-02-05,Clemson,Georgia Tech,65,56
+2011-02-05,Wake Forest,Maryland,70,91
+2011-02-05,Virginia Tech,Boston College,56,58
+2011-02-05,NC State,Duke,52,76
+2011-02-06,Florida State,North Carolina,69,89
+2011-02-08,Boston College,Clemson,69,77
+2011-02-09,North Carolina,Duke,73,79
+2011-02-09,Miami,Wake Forest,74,73
+2011-02-10,Florida State,Georgia Tech,72,63
+2011-02-12,North Carolina,Clemson,64,62
+2011-02-12,Maryland,Boston College,72,76
+2011-02-12,Virginia,Florida State,56,63
+2011-02-13,Duke,Miami,81,71
+2011-02-13,Georgia Tech,Virginia Tech,77,102
+2011-02-13,NC State,Wake Forest,80,55
+2011-02-15,Wake Forest,North Carolina,64,78
+2011-02-15,Maryland,Virginia Tech,83,91
+2011-02-16,Duke,Virginia,56,41
+2011-02-17,Clemson,NC State,61,69
+2011-02-19,Florida State,Wake Forest,84,66
+2011-02-19,Virginia Tech,Virginia,54,61
+2011-02-19,Boston College,North Carolina,46,48
+2011-02-20,Georgia Tech,Duke,57,79
+2011-02-20,NC State,Maryland,80,87
+2011-02-20,Clemson,Miami,63,59
+2011-02-22,Virginia Tech,Wake Forest,76,62
+2011-02-23,Miami,Boston College,73,64
+2011-02-23,Virginia,Georgia Tech,62,56
+2011-02-23,Florida State,Maryland,62,78
+2011-02-23,North Carolina,NC State,75,63
+2011-02-26,Wake Forest,Clemson,49,63
+2011-02-26,Miami,Florida State,59,65
+2011-02-26,Georgia Tech,NC State,74,79
+2011-02-26,Boston College,Virginia,63,44
+2011-02-26,Duke,Virginia Tech,60,64
+2011-02-27,Maryland,North Carolina,76,87
+2011-03-01,Boston College,Virginia Tech,76,61
+2011-03-01,NC State,Virginia,58,69
+2011-03-02,Clemson,Duke,59,70
+2011-03-02,North Carolina,Florida State,72,70
+2011-03-02,Maryland,Miami,66,80
+2011-03-03,Georgia Tech,Wake Forest,80,54
+2011-03-05,Virginia Tech,Clemson,60,69
+2011-03-05,Virginia,Maryland,74,60
+2011-03-05,Duke,North Carolina,67,81
+2011-03-06,Wake Forest,Boston College,68,84
+2011-03-06,Miami,Georgia Tech,57,66
+2011-03-06,Florida State,NC State,72,62
+2011-03-10,Wake Forest,Boston College,67,81
+2011-03-10,NC State,Maryland,67,75
+2011-03-10,Miami,Virginia,69,62
+2011-03-10,Georgia Tech,Virginia Tech,43,59
+2011-03-11,Miami,North Carolina,59,61
+2011-03-11,Virginia Tech,Florida State,52,51
+2011-03-11,Maryland,Duke,71,87
+2011-03-11,Boston College,Clemson,47,70
+2011-03-12,Virginia Tech,Duke,63,77
+2011-03-12,Clemson,North Carolina,87,92
+2011-03-13,Duke,North Carolina,75,58
+2012-01-07,Virginia Tech,Wake Forest,55,58
+2012-01-07,Boston College,North Carolina,60,83
+2012-01-07,Miami,Virginia,51,52
+2012-01-07,Florida State,Clemson,59,79
+2012-01-07,Duke,Georgia Tech,81,74
+2012-01-08,Maryland,NC State,74,79
+2012-01-10,Miami,North Carolina,56,73
+2012-01-10,Florida State,Virginia Tech,63,59
+2012-01-11,Wake Forest,Maryland,64,70
+2012-01-11,Georgia Tech,NC State,82,71
+2012-01-12,Clemson,Boston College,57,59
+2012-01-12,Virginia,Duke,58,61
+2012-01-14,NC State,Wake Forest,76,40
+2012-01-14,Virginia Tech,Boston College,59,61
+2012-01-14,North Carolina,Florida State,57,90
+2012-01-15,Duke,Clemson,73,66
+2012-01-15,Georgia Tech,Maryland,50,61
+2012-01-17,Maryland,Florida State,70,84
+2012-01-18,Clemson,Miami,73,76
+2012-01-19,Wake Forest,Duke,73,91
+2012-01-19,Virginia,Georgia Tech,70,38
+2012-01-19,Boston College,NC State,62,76
+2012-01-19,North Carolina,Virginia Tech,82,68
+2012-01-21,Wake Forest,Boston College,71,56
+2012-01-21,Georgia Tech,Clemson,62,64
+2012-01-21,Florida State,Duke,76,73
+2012-01-22,NC State,Miami,78,73
+2012-01-22,Virginia Tech,Virginia,47,45
+2012-01-24,Miami,Georgia Tech,64,49
+2012-01-25,Florida State,Wake Forest,75,52
+2012-01-25,Duke,Maryland,74,61
+2012-01-26,NC State,North Carolina,55,74
+2012-01-26,Boston College,Virginia,49,66
+2012-01-28,Wake Forest,Clemson,60,71
+2012-01-28,Virginia Tech,Maryland,69,73
+2012-01-28,Virginia,NC State,61,60
+2012-01-29,Miami,Boston College,76,54
+2012-01-29,Georgia Tech,North Carolina,81,93
+2012-01-31,Clemson,Virginia,61,65
+2012-01-31,North Carolina,Wake Forest,68,53
+2012-02-01,NC State,Boston College,56,51
+2012-02-01,Georgia Tech,Florida State,54,68
+2012-02-01,Maryland,Miami,86,90
+2012-02-02,Duke,Virginia Tech,75,60
+2012-02-04,Clemson,Virginia Tech,65,67
+2012-02-04,Wake Forest,NC State,76,87
+2012-02-04,North Carolina,Maryland,83,74
+2012-02-04,Boston College,Georgia Tech,47,51
+2012-02-04,Virginia,Florida State,55,58
+2012-02-05,Miami,Duke,78,74
+2012-02-07,Maryland,Clemson,64,62
+2012-02-08,Florida State,Boston College,60,64
+2012-02-08,Duke,North Carolina,85,84
+2012-02-08,Wake Forest,Virginia,44,68
+2012-02-09,NC State,Georgia Tech,61,52
+2012-02-09,Virginia Tech,Miami,49,65
+2012-02-11,Maryland,Duke,55,73
+2012-02-11,Miami,Florida State,59,64
+2012-02-11,Virginia,North Carolina,52,70
+2012-02-11,Clemson,Wake Forest,78,58
+2012-02-12,Boston College,Virginia Tech,65,66
+2012-02-14,Virginia,Clemson,48,60
+2012-02-15,Georgia Tech,Wake Forest,50,59
+2012-02-15,North Carolina,Miami,73,64
+2012-02-16,NC State,Duke,73,78
+2012-02-16,Virginia Tech,Florida State,47,48
+2012-02-16,Boston College,Maryland,65,81
+2012-02-18,Georgia Tech,Virginia Tech,73,74
+2012-02-18,Wake Forest,Miami,56,74
+2012-02-18,Florida State,NC State,76,62
+2012-02-18,Clemson,North Carolina,52,74
+2012-02-18,Maryland,Virginia,44,71
+2012-02-19,Duke,Boston College,75,50
+2012-02-21,Clemson,Georgia Tech,56,37
+2012-02-21,Miami,Maryland,70,75
+2012-02-21,North Carolina,NC State,86,74
+2012-02-21,Virginia,Virginia Tech,61,59
+2012-02-23,Duke,Florida State,74,66
+2012-02-25,Virginia Tech,Duke,65,70
+2012-02-25,Boston College,Wake Forest,56,85
+2012-02-25,North Carolina,Virginia,54,51
+2012-02-25,NC State,Clemson,69,72
+2012-02-25,Maryland,Georgia Tech,61,63
+2012-02-26,Florida State,Miami,62,78
+2012-02-28,Duke,Wake Forest,79,71
+2012-02-29,Georgia Tech,Boston College,52,56
+2012-02-29,Miami,NC State,73,77
+2012-02-29,Maryland,North Carolina,64,88
+2012-03-01,Virginia Tech,Clemson,56,58
+2012-03-01,Florida State,Virginia,63,60
+2012-03-03,Boston College,Miami,56,77
+2012-03-03,North Carolina,Duke,88,70
+2012-03-03,Wake Forest,Georgia Tech,62,69
+2012-03-04,Virginia,Maryland,75,72
+2012-03-04,NC State,Virginia Tech,70,58
+2012-03-04,Clemson,Florida State,72,80
+2012-03-08,Wake Forest,Maryland,60,82
+2012-03-08,Miami,Georgia Tech,54,36
+2012-03-08,NC State,Boston College,78,57
+2012-03-08,Virginia Tech,Clemson,68,63
+2012-03-09,Virginia Tech,Duke,56,60
+2012-03-09,Miami,Florida State,71,82
+2012-03-09,North Carolina,Maryland,85,69
+2012-03-09,Virginia,NC State,64,67
+2012-03-10,Florida State,Duke,62,59
+2012-03-10,NC State,North Carolina,67,69
+2012-03-11,North Carolina,Florida State,82,85
+2013-01-05,NC State,Boston College,78,73
+2013-01-05,Florida State,Clemson,71,66
+2013-01-05,Wake Forest,Duke,62,80
+2013-01-05,Miami,Georgia Tech,62,49
+2013-01-05,Virginia Tech,Maryland,71,94
+2013-01-06,North Carolina,Virginia,52,61
+2013-01-08,Clemson,Duke,40,68
+2013-01-09,Virginia,Wake Forest,52,55
+2013-01-09,Boston College,Virginia Tech,86,75
+2013-01-09,Florida State,Maryland,65,62
+2013-01-09,Georgia Tech,NC State,70,83
+2013-01-10,Miami,North Carolina,68,59
+2013-01-12,Virginia,Clemson,44,59
+2013-01-12,North Carolina,Florida State,77,72
+2013-01-12,Virginia Tech,Georgia Tech,70,65
+2013-01-12,Duke,NC State,76,84
+2013-01-12,Boston College,Wake Forest,72,75
+2013-01-13,Maryland,Miami,47,54
+2013-01-15,Wake Forest,Clemson,44,60
+2013-01-16,NC State,Maryland,50,51
+2013-01-16,Miami,Boston College,60,59
+2013-01-17,Georgia Tech,Duke,57,73
+2013-01-19,Florida State,Virginia,36,56
+2013-01-19,Maryland,North Carolina,52,62
+2013-01-19,Wake Forest,Virginia Tech,65,66
+2013-01-20,Clemson,NC State,62,66
+2013-01-22,Boston College,Maryland,59,64
+2013-01-22,NC State,Wake Forest,84,86
+2013-01-23,Duke,Miami,63,90
+2013-01-23,Georgia Tech,North Carolina,63,79
+2013-01-24,Clemson,Florida State,57,60
+2013-01-24,Virginia,Virginia Tech,74,58
+2013-01-26,Maryland,Duke,64,84
+2013-01-26,Wake Forest,Georgia Tech,62,82
+2013-01-26,North Carolina,NC State,83,91
+2013-01-26,Boston College,Virginia,51,65
+2013-01-27,Virginia Tech,Clemson,70,77
+2013-01-27,Florida State,Miami,47,71
+2013-01-29,North Carolina,Boston College,82,70
+2013-01-29,Georgia Tech,Clemson,60,63
+2013-01-29,NC State,Virginia,55,58
+2013-01-30,Duke,Wake Forest,75,70
+2013-01-30,Maryland,Florida State,71,73
+2013-01-30,Miami,Virginia Tech,73,64
+2013-02-02,Clemson,Boston College,68,75
+2013-02-02,Duke,Florida State,79,60
+2013-02-02,Wake Forest,Maryland,60,86
+2013-02-02,Miami,NC State,79,78
+2013-02-02,Virginia Tech,North Carolina,60,72
+2013-02-03,Virginia,Georgia Tech,60,66
+2013-02-05,Florida State,Georgia Tech,56,54
+2013-02-05,Boston College,Miami,50,72
+2013-02-05,Wake Forest,North Carolina,62,87
+2013-02-07,Maryland,Virginia Tech,60,55
+2013-02-07,NC State,Duke,85,98
+2013-02-07,Clemson,Virginia,41,78
+2013-02-09,Georgia Tech,Virginia Tech,64,54
+2013-02-09,Florida State,Wake Forest,46,71
+2013-02-09,North Carolina,Miami,61,87
+2013-02-10,Virginia,Maryland,80,69
+2013-02-10,NC State,Clemson,58,57
+2013-02-10,Duke,Boston College,62,61
+2013-02-12,Virginia Tech,Virginia,55,73
+2013-02-13,Wake Forest,Boston College,63,66
+2013-02-13,North Carolina,Duke,68,73
+2013-02-13,Miami,Florida State,74,68
+2013-02-14,Clemson,Georgia Tech,56,53
+2013-02-16,Boston College,Florida State,66,69
+2013-02-16,Duke,Maryland,81,83
+2013-02-16,Virginia Tech,NC State,86,90
+2013-02-16,Virginia,North Carolina,81,93
+2013-02-16,Georgia Tech,Wake Forest,57,56
+2013-02-17,Miami,Clemson,45,43
+2013-02-19,Maryland,Boston College,58,69
+2013-02-19,North Carolina,Georgia Tech,70,58
+2013-02-19,Virginia,Miami,50,54
+2013-02-19,Florida State,NC State,66,84
+2013-02-21,Duke,Virginia Tech,88,56
+2013-02-23,Clemson,Maryland,59,72
+2013-02-23,NC State,North Carolina,65,76
+2013-02-23,Miami,Wake Forest,65,80
+2013-02-24,Boston College,Duke,68,89
+2013-02-24,Georgia Tech,Virginia,54,82
+2013-02-24,Florida State,Virginia Tech,70,80
+2013-02-26,Wake Forest,Florida State,62,76
+2013-02-27,Maryland,Georgia Tech,68,78
+2013-02-27,Virginia Tech,Miami,58,76
+2013-02-27,Boston College,NC State,64,82
+2013-02-28,North Carolina,Clemson,68,59
+2013-02-28,Duke,Virginia,68,73
+2013-03-02,Miami,Duke,76,79
+2013-03-02,Clemson,Virginia Tech,61,69
+2013-03-02,Maryland,Wake Forest,67,57
+2013-03-03,Florida State,North Carolina,58,79
+2013-03-03,NC State,Georgia Tech,70,57
+2013-03-03,Virginia,Boston College,52,53
+2013-03-05,Boston College,Clemson,68,61
+2013-03-05,Virginia Tech,Duke,57,85
+2013-03-06,North Carolina,Maryland,79,68
+2013-03-06,Georgia Tech,Miami,71,69
+2013-03-06,Wake Forest,NC State,66,81
+2013-03-07,Virginia,Florida State,51,53
+2013-03-09,Georgia Tech,Boston College,72,74
+2013-03-09,NC State,Florida State,67,71
+2013-03-09,Clemson,Miami,49,62
+2013-03-09,Duke,North Carolina,69,53
+2013-03-10,Maryland,Virginia,58,61
+2013-03-10,Virginia Tech,Wake Forest,79,90
+2013-03-14,Wake Forest,Maryland,62,75
+2013-03-14,Virginia Tech,NC State,63,80
+2013-03-14,Georgia Tech,Boston College,64,84
+2013-03-14,Florida State,Clemson,73,69
+2013-03-15,Miami,Boston College,69,58
+2013-03-15,Maryland,Duke,83,74
+2013-03-15,North Carolina,Florida State,83,62
+2013-03-15,Virginia,NC State,56,75
+2013-03-16,North Carolina,Maryland,79,76
+2013-03-16,NC State,Miami,71,81
+2013-03-17,North Carolina,Miami,77,87
+2013-12-08,Virginia Tech,Miami,61,60
+2013-12-12,Maryland,Boston College,88,80
+2014-01-04,Clemson,Boston College,62,60
+2014-01-04,Virginia,Florida State,62,50
+2014-01-04,Georgia Tech,Maryland,61,77
+2014-01-04,Pitt,NC State,74,62
+2014-01-04,Duke,Notre Dame,77,79
+2014-01-04,Miami,Syracuse,44,49
+2014-01-05,North Carolina,Wake Forest,67,73
+2014-01-06,Maryland,Pitt,59,79
+2014-01-07,Georgia Tech,Duke,57,79
+2014-01-07,NC State,Notre Dame,77,70
+2014-01-07,Syracuse,Virginia Tech,72,52
+2014-01-08,Miami,North Carolina,63,57
+2014-01-08,Wake Forest,Virginia,51,74
+2014-01-09,Florida State,Clemson,56,41
+2014-01-11,Duke,Clemson,59,72
+2014-01-11,Notre Dame,Georgia Tech,69,74
+2014-01-11,Virginia,NC State,76,45
+2014-01-11,Wake Forest,Pitt,65,80
+2014-01-11,North Carolina,Syracuse,45,57
+2014-01-11,Boston College,Virginia Tech,62,59
+2014-01-12,Maryland,Florida State,61,85
+2014-01-13,Syracuse,Boston College,69,59
+2014-01-13,Virginia,Duke,65,69
+2014-01-14,Pitt,Georgia Tech,81,74
+2014-01-15,Notre Dame,Maryland,66,74
+2014-01-15,Florida State,Miami,63,53
+2014-01-15,Clemson,Virginia Tech,56,49
+2014-01-15,NC State,Wake Forest,69,70
+2014-01-18,Wake Forest,Clemson,53,61
+2014-01-18,NC State,Duke,60,95
+2014-01-18,Miami,Georgia Tech,56,42
+2014-01-18,Boston College,North Carolina,71,82
+2014-01-18,Pitt,Syracuse,54,59
+2014-01-18,Florida State,Virginia,66,78
+2014-01-19,Virginia Tech,Notre Dame,63,70
+2014-01-20,Maryland,NC State,56,65
+2014-01-20,North Carolina,Virginia,61,76
+2014-01-21,Georgia Tech,Boston College,68,60
+2014-01-21,Notre Dame,Florida State,74,76
+2014-01-21,Clemson,Pitt,43,76
+2014-01-22,Wake Forest,Virginia Tech,83,77
+2014-01-22,Duke,Miami,67,46
+2014-01-25,Florida State,Duke,56,78
+2014-01-25,Pitt,Maryland,83,79
+2014-01-25,Syracuse,Miami,64,52
+2014-01-25,Virginia Tech,Virginia,45,65
+2014-01-25,Notre Dame,Wake Forest,58,65
+2014-01-26,Georgia Tech,NC State,78,80
+2014-01-26,Clemson,North Carolina,61,80
+2014-01-27,Duke,Pitt,80,65
+2014-01-28,Virginia,Notre Dame,68,53
+2014-01-29,Virginia Tech,Boston College,52,76
+2014-01-29,North Carolina,Georgia Tech,78,65
+2014-01-29,Miami,Maryland,71,74
+2014-01-29,Florida State,NC State,70,74
+2014-01-29,Syracuse,Wake Forest,67,57
+2014-02-01,Georgia Tech,Wake Forest,79,70
+2014-02-01,Maryland,Virginia Tech,80,60
+2014-02-01,Boston College,Notre Dame,73,76
+2014-02-01,Clemson,Florida State,53,49
+2014-02-01,NC State,North Carolina,70,84
+2014-02-01,Duke,Syracuse,89,91
+2014-02-02,Virginia,Pitt,48,45
+2014-02-03,Notre Dame,Syracuse,55,61
+2014-02-04,Georgia Tech,Clemson,41,45
+2014-02-04,Wake Forest,Duke,63,83
+2014-02-04,Maryland,North Carolina,63,75
+2014-02-05,Virginia Tech,Florida State,50,70
+2014-02-05,Pitt,Miami,59,55
+2014-02-05,Boston College,Virginia,67,77
+2014-02-08,NC State,Miami,56,55
+2014-02-08,Florida State,Maryland,71,83
+2014-02-08,North Carolina,Notre Dame,73,62
+2014-02-08,Duke,Boston College,89,68
+2014-02-08,Virginia,Georgia Tech,64,45
+2014-02-08,Virginia Tech,Pitt,57,62
+2014-02-09,Clemson,Syracuse,44,57
+2014-02-10,Miami,Florida State,77,73
+2014-02-10,Maryland,Virginia,53,61
+2014-02-11,Wake Forest,NC State,67,82
+2014-02-11,Clemson,Notre Dame,64,68
+2014-02-12,Syracuse,Pitt,58,56
+2014-02-13,Boston College,Georgia Tech,71,74
+2014-02-15,Virginia,Clemson,63,58
+2014-02-15,Maryland,Duke,67,69
+2014-02-15,Pitt,North Carolina,71,75
+2014-02-15,NC State,Syracuse,55,56
+2014-02-15,Miami,Virginia Tech,45,52
+2014-02-15,Florida State,Wake Forest,67,60
+2014-02-16,Notre Dame,Boston College,73,69
+2014-02-17,North Carolina,Florida State,81,75
+2014-02-18,Virginia,Virginia Tech,57,53
+2014-02-18,Wake Forest,Maryland,60,71
+2014-02-18,Duke,Georgia Tech,68,51
+2014-02-18,NC State,Clemson,56,73
+2014-02-19,Notre Dame,Miami,64,71
+2014-02-19,Boston College,Syracuse,62,59
+2014-02-20,Duke,North Carolina,66,74
+2014-02-22,Syracuse,Duke,60,66
+2014-02-22,Clemson,Georgia Tech,63,55
+2014-02-22,Boston College,Miami,42,69
+2014-02-22,Wake Forest,North Carolina,72,105
+2014-02-22,Notre Dame,Virginia,49,70
+2014-02-22,NC State,Virginia Tech,71,64
+2014-02-23,Florida State,Pitt,71,66
+2014-02-24,Syracuse,Maryland,57,55
+2014-02-25,Virginia Tech,Duke,48,66
+2014-02-25,Clemson,Wake Forest,57,62
+2014-02-26,Miami,Virginia,40,65
+2014-02-26,Georgia Tech,Notre Dame,62,65
+2014-02-26,Pitt,Boston College,66,59
+2014-02-26,North Carolina,NC State,85,84
+2014-03-01,Miami,NC State,85,70
+2014-03-01,Pitt,Notre Dame,85,81
+2014-03-01,Syracuse,Virginia,56,75
+2014-03-01,North Carolina,Virginia Tech,60,56
+2014-03-01,Boston College,Wake Forest,80,72
+2014-03-02,Georgia Tech,Florida State,71,81
+2014-03-02,Maryland,Clemson,73,77
+2014-03-03,Notre Dame,North Carolina,61,63
+2014-03-03,NC State,Pitt,74,67
+2014-03-04,Florida State,Boston College,74,70
+2014-03-04,Miami,Clemson,54,58
+2014-03-04,Virginia Tech,Maryland,47,64
+2014-03-04,Georgia Tech,Syracuse,67,62
+2014-03-05,Duke,Wake Forest,72,82
+2014-03-08,Wake Forest,Miami,56,69
+2014-03-08,Virginia Tech,Georgia Tech,51,62
+2014-03-08,Pitt,Clemson,83,78
+2014-03-08,North Carolina,Duke,81,93
+2014-03-09,Syracuse,Florida State,74,58
+2014-03-09,Virginia,Maryland,69,75
+2014-03-09,Boston College,NC State,68,78
+2014-03-12,Georgia Tech,Boston College,73,70
+2014-03-12,Virginia Tech,Miami,53,57
+2014-03-12,Wake Forest,Notre Dame,81,69
+2014-03-13,Wake Forest,Pitt,55,84
+2014-03-13,Georgia Tech,Clemson,65,69
+2014-03-13,Maryland,Florida State,65,67
+2014-03-13,NC State,Miami,67,58
+2014-03-14,Virginia,Florida State,64,51
+2014-03-14,Syracuse,NC State,63,66
+2014-03-14,Duke,Clemson,63,62
+2014-03-14,Pitt,North Carolina,80,75
+2014-03-15,Virginia,Pitt,51,48
+2014-03-15,NC State,Duke,67,75
+2014-03-16,Virginia,Duke,72,63
+2014-12-06,Wake Forest,NC State,65,78
+2014-12-13,Florida State,Notre Dame,63,83
+2015-01-03,North Carolina,Clemson,74,50
+2015-01-03,Boston College,Duke,62,85
+2015-01-03,Virginia,Miami,89,80
+2015-01-03,Pitt,NC State,50,68
+2015-01-03,Georgia Tech,Notre Dame,76,83
+2015-01-03,Syracuse,Virginia Tech,68,66
+2015-01-04,Louisville,Wake Forest,85,76
+2015-01-05,Notre Dame,North Carolina,71,70
+2015-01-06,Pitt,Boston College,61,60
+2015-01-06,Virginia Tech,Florida State,75,86
+2015-01-07,NC State,Virginia,51,61
+2015-01-07,Duke,Wake Forest,73,65
+2015-01-07,Syracuse,Georgia Tech,46,45
+2015-01-07,Clemson,Louisville,52,58
+2015-01-10,Boston College,Miami,56,60
+2015-01-10,Louisville,North Carolina,71,72
+2015-01-10,Virginia,Notre Dame,62,56
+2015-01-10,Clemson,Pitt,71,62
+2015-01-10,Georgia Tech,Wake Forest,69,76
+2015-01-11,Duke,NC State,75,87
+2015-01-11,Florida State,Syracuse,57,70
+2015-01-13,Clemson,Virginia,42,65
+2015-01-13,Wake Forest,Syracuse,83,86
+2015-01-13,Miami,Duke,90,74
+2015-01-13,Virginia Tech,Louisville,63,78
+2015-01-14,Notre Dame,Georgia Tech,62,59
+2015-01-14,North Carolina,NC State,81,79
+2015-01-14,Florida State,Pitt,64,73
+2015-01-17,Miami,Notre Dame,70,75
+2015-01-17,Georgia Tech,Pitt,65,70
+2015-01-17,NC State,Florida State,72,63
+2015-01-17,Syracuse,Clemson,53,66
+2015-01-17,Virginia,Boston College,66,51
+2015-01-17,Duke,Louisville,63,52
+2015-01-18,Virginia Tech,North Carolina,53,68
+2015-01-19,Florida State,Clemson,59,55
+2015-01-19,Pitt,Duke,65,79
+2015-01-20,Boston College,Syracuse,61,69
+2015-01-21,North Carolina,Wake Forest,87,71
+2015-01-22,NC State,Miami,60,65
+2015-01-22,Georgia Tech,Virginia,28,57
+2015-01-22,Notre Dame,Virginia Tech,85,60
+2015-01-24,Miami,Syracuse,66,62
+2015-01-24,Wake Forest,Clemson,57,59
+2015-01-24,Florida State,North Carolina,74,78
+2015-01-25,Virginia,Virginia Tech,50,47
+2015-01-25,Louisville,Pitt,80,68
+2015-01-25,Boston College,Georgia Tech,64,62
+2015-01-25,Notre Dame,NC State,81,78
+2015-01-26,Syracuse,North Carolina,83,93
+2015-01-27,Pitt,Virginia Tech,67,70
+2015-01-28,Louisville,Boston College,81,72
+2015-01-28,Wake Forest,Florida State,76,82
+2015-01-28,Georgia Tech,Miami,70,50
+2015-01-28,Clemson,NC State,68,57
+2015-01-28,Duke,Notre Dame,73,77
+2015-01-31,Duke,Virginia,69,63
+2015-01-31,Notre Dame,Pitt,72,76
+2015-01-31,Virginia Tech,Wake Forest,70,73
+2015-01-31,NC State,Georgia Tech,81,80
+2015-01-31,Boston College,Clemson,49,64
+2015-01-31,North Carolina,Louisville,68,78
+2015-02-01,Miami,Florida State,54,55
+2015-02-02,Virginia,North Carolina,75,64
+2015-02-03,NC State,Wake Forest,84,88
+2015-02-03,Virginia Tech,Syracuse,70,72
+2015-02-03,Louisville,Miami,63,55
+2015-02-04,Georgia Tech,Duke,66,72
+2015-02-04,Clemson,Florida State,62,56
+2015-02-04,Boston College,Notre Dame,63,71
+2015-02-07,North Carolina,Boston College,79,68
+2015-02-07,Notre Dame,Duke,60,90
+2015-02-07,Wake Forest,Georgia Tech,59,73
+2015-02-07,Syracuse,Pitt,77,83
+2015-02-07,Louisville,Virginia,47,52
+2015-02-07,Florida State,Virginia Tech,73,65
+2015-02-08,Clemson,Miami,45,56
+2015-02-09,Duke,Florida State,73,70
+2015-02-09,Georgia Tech,Virginia Tech,63,65
+2015-02-10,Notre Dame,Clemson,60,58
+2015-02-11,Virginia,NC State,51,47
+2015-02-11,Miami,Wake Forest,70,72
+2015-02-11,Syracuse,Boston College,70,56
+2015-02-11,Pitt,Louisville,56,69
+2015-02-14,Virginia Tech,Clemson,54,75
+2015-02-14,Florida State,Georgia Tech,57,53
+2015-02-14,NC State,Louisville,74,65
+2015-02-14,North Carolina,Pitt,76,89
+2015-02-14,Duke,Syracuse,80,72
+2015-02-14,Wake Forest,Virginia,60,61
+2015-02-16,Pitt,Virginia,49,61
+2015-02-16,Clemson,Georgia Tech,52,63
+2015-02-16,Miami,Boston College,89,86
+2015-02-17,Wake Forest,Notre Dame,75,88
+2015-02-18,North Carolina,Duke,90,92
+2015-02-18,Boston College,Florida State,60,69
+2015-02-18,Virginia Tech,Miami,52,76
+2015-02-18,Louisville,Syracuse,59,69
+2015-02-21,Georgia Tech,North Carolina,60,89
+2015-02-21,Pitt,Syracuse,65,61
+2015-02-21,Virginia Tech,NC State,53,69
+2015-02-21,Clemson,Duke,56,78
+2015-02-21,Notre Dame,Boston College,87,70
+2015-02-21,Miami,Louisville,53,55
+2015-02-22,Florida State,Virginia,41,51
+2015-02-23,Louisville,Georgia Tech,52,51
+2015-02-24,NC State,North Carolina,58,46
+2015-02-24,Syracuse,Notre Dame,65,60
+2015-02-24,Boston College,Pitt,65,71
+2015-02-25,Florida State,Miami,77,81
+2015-02-25,Duke,Virginia Tech,91,86
+2015-02-25,Virginia,Wake Forest,70,34
+2015-02-28,Virginia Tech,Virginia,57,69
+2015-02-28,North Carolina,Miami,73,64
+2015-02-28,Louisville,Florida State,81,59
+2015-02-28,Syracuse,Duke,54,73
+2015-02-28,Georgia Tech,Clemson,63,70
+2015-02-28,NC State,Boston College,63,79
+2015-03-01,Pitt,Wake Forest,66,69
+2015-03-02,Virginia,Syracuse,59,47
+2015-03-02,Boston College,Virginia Tech,66,59
+2015-03-03,NC State,Clemson,66,61
+2015-03-03,North Carolina,Georgia Tech,81,49
+2015-03-04,Wake Forest,Duke,51,94
+2015-03-04,Notre Dame,Louisville,71,59
+2015-03-04,Miami,Pitt,67,63
+2015-03-07,Duke,North Carolina,84,77
+2015-03-07,Syracuse,NC State,57,71
+2015-03-07,Clemson,Notre Dame,67,81
+2015-03-07,Pitt,Florida State,52,61
+2015-03-07,Wake Forest,Boston College,61,79
+2015-03-07,Virginia,Louisville,57,59
+2015-03-07,Miami,Virginia Tech,82,61
+2015-03-10,Wake Forest,Virginia Tech,80,81
+2015-03-10,Georgia Tech,Boston College,65,66
+2015-03-11,North Carolina,Boston College,81,63
+2015-03-11,Florida State,Clemson,76,73
+2015-03-11,Virginia Tech,Miami,49,59
+2015-03-11,Pitt,NC State,70,81
+2015-03-12,North Carolina,Louisville,70,60
+2015-03-12,Notre Dame,Miami,70,63
+2015-03-12,NC State,Duke,53,77
+2015-03-12,Virginia,Florida State,58,44
+2015-03-13,Notre Dame,Duke,74,64
+2015-03-13,Virginia,North Carolina,67,71
+2015-03-14,Notre Dame,North Carolina,90,82
 2015-12-30,Clemson,North Carolina,69,80
 2015-12-30,Syracuse,Pitt,61,72
-2016-01-02,Duke,Boston College,81,64
-2016-01-02,Florida State,Clemson,75,84
-2016-01-02,Syracuse,Miami,51,64
-2016-01-02,Georgia Tech,North Carolina,78,86
 2016-01-02,Notre Dame,Virginia,66,77
 2016-01-02,NC State,Virginia Tech,68,73
+2016-01-02,Georgia Tech,North Carolina,78,86
+2016-01-02,Syracuse,Miami,51,64
+2016-01-02,Florida State,Clemson,75,84
+2016-01-02,Duke,Boston College,81,64
 2016-01-03,Wake Forest,Louisville,57,65
-2016-01-04,Virginia,Virginia Tech,68,70
 2016-01-04,North Carolina,Florida State,106,90
+2016-01-04,Virginia,Virginia Tech,68,70
 2016-01-05,Clemson,Syracuse,74,73
 2016-01-06,Georgia Tech,Pitt,84,89
 2016-01-06,Duke,Wake Forest,91,75
 2016-01-07,Notre Dame,Boston College,82,54
 2016-01-07,Louisville,NC State,77,72
-2016-01-09,Pitt,Notre Dame,86,82
 2016-01-09,Virginia Tech,Duke,58,82
 2016-01-09,Virginia,Georgia Tech,64,68
 2016-01-09,Florida State,Miami,59,72
+2016-01-09,Pitt,Notre Dame,86,82
 2016-01-09,North Carolina,Syracuse,84,73
 2016-01-10,NC State,Wake Forest,74,77
 2016-01-10,Louisville,Clemson,62,66
@@ -29,12 +659,12 @@ date,away_team,home_team,away_score,home_score
 2016-01-13,Boston College,Syracuse,40,62
 2016-01-13,Wake Forest,Virginia Tech,91,93
 2016-01-14,Pitt,Louisville,41,59
-2016-01-16,NC State,North Carolina,55,67
-2016-01-16,Syracuse,Wake Forest,83,55
-2016-01-16,Boston College,Pitt,61,84
-2016-01-16,Virginia Tech,Georgia Tech,78,77
-2016-01-16,Notre Dame,Duke,95,91
 2016-01-16,Miami,Clemson,65,76
+2016-01-16,Notre Dame,Duke,95,91
+2016-01-16,Virginia Tech,Georgia Tech,78,77
+2016-01-16,NC State,North Carolina,55,67
+2016-01-16,Boston College,Pitt,61,84
+2016-01-16,Syracuse,Wake Forest,83,55
 2016-01-17,Virginia,Florida State,62,69
 2016-01-18,Syracuse,Duke,64,62
 2016-01-19,NC State,Pitt,78,61
@@ -43,68 +673,68 @@ date,away_team,home_team,away_score,home_score
 2016-01-20,Florida State,Louisville,65,84
 2016-01-20,Wake Forest,North Carolina,68,83
 2016-01-20,Virginia Tech,Notre Dame,81,83
-2016-01-23,Duke,NC State,88,78
-2016-01-23,Wake Forest,Miami,63,77
-2016-01-23,Boston College,Notre Dame,49,76
 2016-01-23,Pitt,Florida State,74,72
 2016-01-23,Louisville,Georgia Tech,75,71
+2016-01-23,Wake Forest,Miami,63,77
+2016-01-23,Duke,NC State,88,78
+2016-01-23,Boston College,Notre Dame,49,76
 2016-01-24,Syracuse,Virginia,65,73
 2016-01-24,North Carolina,Virginia Tech,75,70
 2016-01-25,Duke,Miami,69,80
 2016-01-26,Florida State,Boston College,72,62
 2016-01-26,Virginia,Wake Forest,72,71
-2016-01-27,Pitt,Clemson,60,73
 2016-01-27,Georgia Tech,NC State,90,83
+2016-01-27,Pitt,Clemson,60,73
 2016-01-27,Louisville,Virginia Tech,91,83
 2016-01-28,Notre Dame,Syracuse,66,81
-2016-01-30,Georgia Tech,Syracuse,57,60
-2016-01-30,Boston College,North Carolina,62,89
 2016-01-30,Clemson,Florida State,65,76
 2016-01-30,Virginia,Louisville,63,47
 2016-01-30,Miami,NC State,69,85
+2016-01-30,Boston College,North Carolina,62,89
+2016-01-30,Georgia Tech,Syracuse,57,60
 2016-01-31,Wake Forest,Notre Dame,62,85
 2016-01-31,Virginia Tech,Pitt,71,90
-2016-02-01,NC State,Florida State,73,77
 2016-02-01,North Carolina,Louisville,65,71
-2016-02-02,Virginia Tech,Syracuse,60,68
+2016-02-01,NC State,Florida State,73,77
 2016-02-02,Duke,Georgia Tech,80,71
+2016-02-02,Virginia Tech,Syracuse,60,68
 2016-02-02,Clemson,Wake Forest,76,62
-2016-02-03,Boston College,Virginia,47,61
 2016-02-03,Notre Dame,Miami,70,79
-2016-02-06,NC State,Duke,80,88
-2016-02-06,Boston College,Louisville,47,79
-2016-02-06,North Carolina,Notre Dame,76,80
-2016-02-06,Virginia,Pitt,64,50
+2016-02-03,Boston College,Virginia,47,61
 2016-02-06,Clemson,Virginia Tech,57,60
 2016-02-06,Florida State,Wake Forest,91,71
+2016-02-06,Virginia,Pitt,64,50
+2016-02-06,North Carolina,Notre Dame,76,80
+2016-02-06,Boston College,Louisville,47,79
+2016-02-06,NC State,Duke,80,88
 2016-02-07,Miami,Georgia Tech,75,68
 2016-02-08,Notre Dame,Clemson,89,83
 2016-02-08,Louisville,Duke,65,72
-2016-02-09,Virginia Tech,Virginia,49,67
-2016-02-09,Pitt,Miami,63,65
 2016-02-09,North Carolina,Boston College,68,65
+2016-02-09,Pitt,Miami,63,65
+2016-02-09,Virginia Tech,Virginia,49,67
 2016-02-10,Wake Forest,Georgia Tech,66,71
 2016-02-11,Florida State,Syracuse,72,85
 2016-02-13,Georgia Tech,Clemson,52,66
 2016-02-13,Virginia,Duke,62,63
 2016-02-13,Wake Forest,NC State,88,99
 2016-02-13,Louisville,Notre Dame,66,71
-2016-02-14,Syracuse,Boston College,75,61
-2016-02-14,Miami,Florida State,67,65
 2016-02-14,Pitt,North Carolina,64,85
+2016-02-14,Miami,Florida State,67,65
+2016-02-14,Syracuse,Boston College,75,61
 2016-02-15,NC State,Virginia,53,73
 2016-02-16,Wake Forest,Pitt,96,101
-2016-02-17,Duke,North Carolina,74,73
-2016-02-17,Virginia Tech,Miami,49,65
+2016-02-17,Boston College,Clemson,54,65
 2016-02-17,Georgia Tech,Florida State,86,80
 2016-02-17,Syracuse,Louisville,58,72
-2016-02-17,Boston College,Clemson,54,65
+2016-02-17,Virginia Tech,Miami,49,65
+2016-02-17,Duke,North Carolina,74,73
+2016-02-20,Florida State,Virginia Tech,73,83
+2016-02-20,Pitt,Syracuse,66,52
+2016-02-20,Miami,North Carolina,71,96
 2016-02-20,Notre Dame,Georgia Tech,62,63
 2016-02-20,Duke,Louisville,64,71
 2016-02-20,Clemson,NC State,74,77
-2016-02-20,Miami,North Carolina,71,96
-2016-02-20,Pitt,Syracuse,66,52
-2016-02-20,Florida State,Virginia Tech,73,83
 2016-02-21,Boston College,Wake Forest,48,74
 2016-02-22,Virginia,Miami,61,64
 2016-02-23,Clemson,Georgia Tech,73,75
@@ -124,64 +754,64 @@ date,away_team,home_team,away_score,home_score
 2016-03-01,Virginia,Clemson,64,57
 2016-03-01,Wake Forest,Duke,71,79
 2016-03-01,Georgia Tech,Louisville,53,56
-2016-03-02,Boston College,NC State,72,73
-2016-03-02,Miami,Notre Dame,68,50
 2016-03-02,Pitt,Virginia Tech,61,65
-2016-03-05,Miami,Virginia Tech,62,77
-2016-03-05,NC State,Notre Dame,75,89
-2016-03-05,Pitt,Georgia Tech,59,63
-2016-03-05,Louisville,Virginia,46,68
-2016-03-05,North Carolina,Duke,76,72
+2016-03-02,Miami,Notre Dame,68,50
+2016-03-02,Boston College,NC State,72,73
 2016-03-05,Clemson,Boston College,66,50
+2016-03-05,North Carolina,Duke,76,72
 2016-03-05,Syracuse,Florida State,73,78
+2016-03-05,Pitt,Georgia Tech,59,63
+2016-03-05,NC State,Notre Dame,75,89
+2016-03-05,Louisville,Virginia,46,68
+2016-03-05,Miami,Virginia Tech,62,77
 2016-03-08,Boston College,Florida State,66,88
 2016-03-08,Wake Forest,NC State,72,75
 2016-03-09,Georgia Tech,Clemson,88,85
 2016-03-09,NC State,Duke,89,92
 2016-03-09,Syracuse,Pitt,71,72
 2016-03-09,Florida State,Virginia Tech,85,96
+2016-03-10,Georgia Tech,Virginia,52,72
+2016-03-10,Duke,Notre Dame,79,84
 2016-03-10,Virginia Tech,Miami,82,88
 2016-03-10,Pitt,North Carolina,71,88
-2016-03-10,Duke,Notre Dame,79,84
-2016-03-10,Georgia Tech,Virginia,52,72
-2016-03-11,Miami,Virginia,68,73
 2016-03-11,Notre Dame,North Carolina,47,78
+2016-03-11,Miami,Virginia,68,73
 2016-03-12,Virginia,North Carolina,57,61
 2016-12-28,Wake Forest,Florida State,72,88
 2016-12-28,Virginia,Louisville,61,53
-2016-12-31,North Carolina,Georgia Tech,63,75
 2016-12-31,NC State,Miami,63,81
+2016-12-31,North Carolina,Georgia Tech,63,75
 2016-12-31,Notre Dame,Pitt,78,77
 2016-12-31,Florida State,Virginia,60,58
 2016-12-31,Duke,Virginia Tech,75,89
 2016-12-31,Clemson,Wake Forest,73,68
 2017-01-01,Syracuse,Boston College,81,96
-2017-01-03,Boston College,Wake Forest,66,79
 2017-01-03,North Carolina,Clemson,89,86
-2017-01-04,Georgia Tech,Duke,57,110
-2017-01-04,Virginia Tech,NC State,78,104
-2017-01-04,Louisville,Notre Dame,70,77
-2017-01-04,Virginia,Pitt,76,88
+2017-01-03,Boston College,Wake Forest,66,79
 2017-01-04,Miami,Syracuse,55,70
-2017-01-07,Pitt,Syracuse,66,77
+2017-01-04,Virginia,Pitt,76,88
+2017-01-04,Virginia Tech,NC State,78,104
+2017-01-04,Georgia Tech,Duke,57,110
+2017-01-04,Louisville,Notre Dame,70,77
 2017-01-07,Boston College,Duke,82,93
 2017-01-07,Virginia Tech,Florida State,78,93
 2017-01-07,Louisville,Georgia Tech,65,50
 2017-01-07,Clemson,Notre Dame,70,75
-2017-01-08,Wake Forest,Virginia,62,79
+2017-01-07,Pitt,Syracuse,66,77
 2017-01-08,NC State,North Carolina,56,107
+2017-01-08,Wake Forest,Virginia,62,79
 2017-01-10,Duke,Florida State,72,88
 2017-01-10,Syracuse,Virginia Tech,73,83
 2017-01-11,NC State,Boston College,66,74
 2017-01-11,Pitt,Louisville,80,85
 2017-01-11,North Carolina,Wake Forest,93,87
-2017-01-12,Clemson,Georgia Tech,63,75
 2017-01-12,Notre Dame,Miami,67,62
-2017-01-14,Notre Dame,Virginia Tech,76,71
+2017-01-12,Clemson,Georgia Tech,63,75
 2017-01-14,Boston College,Syracuse,53,76
+2017-01-14,Notre Dame,Virginia Tech,76,71
 2017-01-14,Miami,Pitt,72,46
-2017-01-14,Duke,Louisville,69,78
 2017-01-14,Virginia,Clemson,77,73
+2017-01-14,Duke,Louisville,69,78
 2017-01-14,Florida State,North Carolina,83,96
 2017-01-15,Georgia Tech,NC State,86,76
 2017-01-16,Syracuse,North Carolina,68,85
@@ -191,8 +821,8 @@ date,away_team,home_team,away_score,home_score
 2017-01-18,Notre Dame,Florida State,80,83
 2017-01-18,Georgia Tech,Virginia Tech,61,62
 2017-01-19,Clemson,Louisville,60,92
-2017-01-21,Georgia Tech,Virginia,49,62
 2017-01-21,Syracuse,Notre Dame,66,84
+2017-01-21,Georgia Tech,Virginia,49,62
 2017-01-21,Wake Forest,NC State,93,88
 2017-01-21,Louisville,Florida State,68,73
 2017-01-21,Miami,Duke,58,70
@@ -210,15 +840,15 @@ date,away_team,home_team,away_score,home_score
 2017-01-28,Clemson,Pitt,67,60
 2017-01-28,Florida State,Syracuse,72,82
 2017-01-28,Duke,Wake Forest,85,83
-2017-01-29,NC State,Louisville,60,85
 2017-01-29,Boston College,Virginia Tech,79,85
+2017-01-29,NC State,Louisville,60,85
 2017-01-30,Duke,Notre Dame,84,74
 2017-01-31,Wake Forest,Boston College,85,80
 2017-01-31,Pitt,North Carolina,78,80
-2017-02-01,Virginia Tech,Virginia,48,71
-2017-02-01,Syracuse,NC State,100,93
 2017-02-01,Georgia Tech,Clemson,62,74
 2017-02-01,Florida State,Miami,75,57
+2017-02-01,Syracuse,NC State,100,93
+2017-02-01,Virginia Tech,Virginia,48,71
 2017-02-04,Louisville,Boston College,90,67
 2017-02-04,Pitt,Duke,64,72
 2017-02-04,Miami,NC State,84,79
@@ -229,24 +859,24 @@ date,away_team,home_team,away_score,home_score
 2017-02-06,Louisville,Virginia,55,71
 2017-02-07,Wake Forest,Notre Dame,81,88
 2017-02-07,Syracuse,Clemson,82,81
-2017-02-08,Virginia Tech,Miami,68,74
 2017-02-08,Pitt,Boston College,83,72
 2017-02-08,NC State,Florida State,71,95
+2017-02-08,Virginia Tech,Miami,68,74
 2017-02-09,North Carolina,Duke,78,86
 2017-02-11,NC State,Wake Forest,58,88
-2017-02-11,Clemson,Duke,62,64
-2017-02-11,Boston College,Georgia Tech,54,65
-2017-02-11,Miami,Louisville,66,71
-2017-02-11,Florida State,Notre Dame,72,84
 2017-02-11,Syracuse,Pitt,75,80
+2017-02-11,Florida State,Notre Dame,72,84
+2017-02-11,Boston College,Georgia Tech,54,65
+2017-02-11,Clemson,Duke,62,64
+2017-02-11,Miami,Louisville,66,71
 2017-02-12,Virginia,Virginia Tech,78,80
 2017-02-13,Louisville,Syracuse,76,72
-2017-02-14,Virginia Tech,Pitt,66,63
-2017-02-14,Wake Forest,Clemson,83,95
 2017-02-14,Notre Dame,Boston College,84,76
-2017-02-15,Georgia Tech,Miami,61,70
-2017-02-15,North Carolina,NC State,97,73
+2017-02-14,Wake Forest,Clemson,83,95
+2017-02-14,Virginia Tech,Pitt,66,63
 2017-02-15,Duke,Virginia,65,55
+2017-02-15,North Carolina,NC State,97,73
+2017-02-15,Georgia Tech,Miami,61,70
 2017-02-18,Wake Forest,Duke,94,99
 2017-02-18,Virginia Tech,Louisville,90,94
 2017-02-18,Clemson,Miami,65,71
@@ -254,20 +884,20 @@ date,away_team,home_team,away_score,home_score
 2017-02-18,Virginia,North Carolina,41,65
 2017-02-18,Florida State,Pitt,66,80
 2017-02-19,Syracuse,Georgia Tech,65,71
-2017-02-20,Miami,Virginia,54,48
 2017-02-20,Boston College,Florida State,72,104
+2017-02-20,Miami,Virginia,54,48
 2017-02-21,NC State,Georgia Tech,71,69
 2017-02-21,Clemson,Virginia Tech,70,71
 2017-02-22,Louisville,North Carolina,63,74
 2017-02-22,Duke,Syracuse,75,78
 2017-02-22,Pitt,Wake Forest,59,63
-2017-02-25,Virginia Tech,Boston College,91,75
-2017-02-25,Florida State,Clemson,76,74
-2017-02-25,Duke,Miami,50,55
-2017-02-25,Virginia,NC State,70,55
 2017-02-25,North Carolina,Pitt,85,67
-2017-02-26,Georgia Tech,Notre Dame,60,64
+2017-02-25,Virginia,NC State,70,55
+2017-02-25,Florida State,Clemson,76,74
+2017-02-25,Virginia Tech,Boston College,91,75
+2017-02-25,Duke,Miami,50,55
 2017-02-26,Syracuse,Louisville,68,88
+2017-02-26,Georgia Tech,Notre Dame,60,64
 2017-02-27,North Carolina,Virginia,43,53
 2017-02-27,Miami,Virginia Tech,61,66
 2017-02-28,Florida State,Duke,70,75
@@ -289,19 +919,19 @@ date,away_team,home_team,away_score,home_score
 2017-03-08,Miami,Syracuse,62,57
 2017-03-08,Pitt,Virginia,63,75
 2017-03-08,Wake Forest,Virginia Tech,90,99
-2017-03-09,Virginia,Notre Dame,58,71
-2017-03-09,Miami,North Carolina,53,78
-2017-03-09,Duke,Louisville,81,77
 2017-03-09,Virginia Tech,Florida State,68,74
+2017-03-09,Duke,Louisville,81,77
+2017-03-09,Miami,North Carolina,53,78
+2017-03-09,Virginia,Notre Dame,58,71
 2017-03-10,Notre Dame,Florida State,77,73
 2017-03-10,Duke,North Carolina,93,83
 2017-03-11,Duke,Notre Dame,75,69
 2017-12-09,Duke,Boston College,84,89
 2017-12-30,Miami,Pitt,67,53
-2017-12-30,Georgia Tech,Notre Dame,59,68
 2017-12-30,Boston College,Virginia,58,59
-2017-12-30,Florida State,Duke,93,100
+2017-12-30,Georgia Tech,Notre Dame,59,68
 2017-12-30,NC State,Clemson,62,78
+2017-12-30,Florida State,Duke,93,100
 2017-12-30,Wake Forest,North Carolina,69,73
 2017-12-31,Virginia Tech,Syracuse,56,68
 2018-01-02,Pitt,Louisville,51,77
@@ -311,12 +941,12 @@ date,away_team,home_team,away_score,home_score
 2018-01-03,NC State,Notre Dame,58,88
 2018-01-03,Virginia,Virginia Tech,78,52
 2018-01-03,Syracuse,Wake Forest,67,73
+2018-01-06,Pitt,Virginia Tech,67,81
 2018-01-06,North Carolina,Virginia,49,61
 2018-01-06,Notre Dame,Syracuse,51,49
-2018-01-06,Pitt,Virginia Tech,67,81
-2018-01-06,Louisville,Clemson,69,74
-2018-01-06,Wake Forest,Boston College,71,77
 2018-01-06,Duke,NC State,85,96
+2018-01-06,Wake Forest,Boston College,71,77
+2018-01-06,Louisville,Clemson,69,74
 2018-01-07,Florida State,Miami,74,80
 2018-01-09,Boston College,North Carolina,66,96
 2018-01-09,Syracuse,Virginia,61,68
@@ -325,12 +955,12 @@ date,away_team,home_team,away_score,home_score
 2018-01-10,Duke,Pitt,87,52
 2018-01-10,Virginia Tech,Wake Forest,83,75
 2018-01-11,Clemson,NC State,77,78
-2018-01-13,Georgia Tech,Pitt,69,54
-2018-01-13,North Carolina,Notre Dame,69,68
 2018-01-13,Virginia Tech,Louisville,86,94
 2018-01-13,Syracuse,Florida State,90,101
+2018-01-13,North Carolina,Notre Dame,69,68
 2018-01-13,Miami,Clemson,63,72
 2018-01-13,Wake Forest,Duke,71,89
+2018-01-13,Georgia Tech,Pitt,69,54
 2018-01-14,NC State,Virginia,51,68
 2018-01-15,Florida State,Boston College,75,81
 2018-01-15,Duke,Miami,83,75
@@ -339,34 +969,34 @@ date,away_team,home_team,away_score,home_score
 2018-01-16,Pitt,Syracuse,45,59
 2018-01-18,Virginia,Georgia Tech,64,48
 2018-01-18,Wake Forest,NC State,63,72
-2018-01-20,Florida State,Virginia Tech,91,82
-2018-01-20,Georgia Tech,North Carolina,66,80
 2018-01-20,Notre Dame,Clemson,58,67
 2018-01-20,Pitt,Duke,54,81
+2018-01-20,Georgia Tech,North Carolina,66,80
+2018-01-20,Florida State,Virginia Tech,91,82
 2018-01-21,Boston College,Louisville,69,77
 2018-01-21,Miami,NC State,86,81
 2018-01-21,Virginia,Wake Forest,59,49
 2018-01-22,North Carolina,Virginia Tech,69,80
-2018-01-23,Clemson,Virginia,36,61
 2018-01-23,Duke,Wake Forest,84,70
+2018-01-23,Clemson,Virginia,36,61
 2018-01-24,Georgia Tech,Florida State,77,88
 2018-01-24,Louisville,Miami,75,78
 2018-01-24,NC State,Pitt,72,68
 2018-01-24,Boston College,Syracuse,63,81
-2018-01-27,Syracuse,Pitt,60,55
-2018-01-27,Virginia Tech,Notre Dame,80,75
-2018-01-27,NC State,North Carolina,95,91
 2018-01-27,Virginia,Duke,65,63
 2018-01-27,Miami,Florida State,94,103
 2018-01-27,Wake Forest,Louisville,77,96
+2018-01-27,NC State,North Carolina,95,91
+2018-01-27,Virginia Tech,Notre Dame,80,75
+2018-01-27,Syracuse,Pitt,60,55
 2018-01-28,Clemson,Georgia Tech,72,70
 2018-01-29,Notre Dame,Duke,66,88
 2018-01-30,North Carolina,Clemson,78,82
-2018-01-31,Louisville,Virginia,64,74
 2018-01-31,Florida State,Wake Forest,72,76
+2018-01-31,Louisville,Virginia,64,74
 2018-01-31,Pitt,Miami,57,69
-2018-01-31,Virginia Tech,Boston College,85,80
 2018-01-31,Syracuse,Georgia Tech,51,55
+2018-01-31,Virginia Tech,Boston College,85,80
 2018-02-03,Florida State,Louisville,80,76
 2018-02-03,Notre Dame,NC State,58,76
 2018-02-03,Pitt,North Carolina,65,96
@@ -382,27 +1012,27 @@ date,away_team,home_team,away_score,home_score
 2018-02-08,Georgia Tech,Louisville,54,77
 2018-02-08,Duke,North Carolina,78,82
 2018-02-08,Pitt,Clemson,48,72
-2018-02-10,Florida State,Notre Dame,69,84
-2018-02-10,Virginia Tech,Virginia,61,60
 2018-02-10,Miami,Boston College,70,72
 2018-02-10,North Carolina,NC State,96,89
+2018-02-10,Florida State,Notre Dame,69,84
+2018-02-10,Virginia Tech,Virginia,61,60
+2018-02-11,Duke,Georgia Tech,80,69
 2018-02-11,Louisville,Pitt,94,60
 2018-02-11,Wake Forest,Syracuse,70,78
-2018-02-11,Duke,Georgia Tech,80,69
 2018-02-12,Notre Dame,North Carolina,66,83
-2018-02-13,Boston College,Pitt,81,58
 2018-02-13,Virginia,Miami,59,50
+2018-02-13,Boston College,Pitt,81,58
 2018-02-14,Virginia Tech,Duke,52,74
 2018-02-14,Clemson,Florida State,79,81
 2018-02-14,NC State,Syracuse,74,70
 2018-02-14,Georgia Tech,Wake Forest,62,79
+2018-02-17,Syracuse,Miami,62,55
+2018-02-17,North Carolina,Louisville,93,76
 2018-02-17,NC State,Wake Forest,90,84
 2018-02-17,Notre Dame,Boston College,84,67
 2018-02-17,Virginia Tech,Georgia Tech,76,56
-2018-02-17,North Carolina,Louisville,93,76
-2018-02-17,Syracuse,Miami,62,55
-2018-02-18,Pitt,Florida State,75,88
 2018-02-18,Duke,Clemson,66,57
+2018-02-18,Pitt,Florida State,75,88
 2018-02-19,Miami,Notre Dame,77,74
 2018-02-20,Boston College,NC State,66,82
 2018-02-21,Louisville,Duke,56,82
@@ -410,9 +1040,9 @@ date,away_team,home_team,away_score,home_score
 2018-02-21,North Carolina,Syracuse,78,74
 2018-02-21,Georgia Tech,Virginia,54,65
 2018-02-21,Clemson,Virginia Tech,58,65
-2018-02-24,Notre Dame,Wake Forest,76,71
-2018-02-24,Virginia,Pitt,66,37
 2018-02-24,Louisville,Virginia Tech,75,68
+2018-02-24,Virginia,Pitt,66,37
+2018-02-24,Notre Dame,Wake Forest,76,71
 2018-02-24,Syracuse,Duke,44,60
 2018-02-24,Georgia Tech,Clemson,67,75
 2018-02-24,Boston College,Miami,78,79
@@ -422,34 +1052,34 @@ date,away_team,home_team,away_score,home_score
 2018-02-28,Syracuse,Boston College,70,85
 2018-02-28,Florida State,Clemson,63,76
 2018-02-28,Pitt,Notre Dame,56,73
-2018-03-01,NC State,Georgia Tech,75,78
 2018-03-01,Virginia,Louisville,67,66
-2018-03-03,Notre Dame,Virginia,57,62
-2018-03-03,Clemson,Syracuse,52,55
-2018-03-03,Louisville,NC State,69,76
+2018-03-01,NC State,Georgia Tech,75,78
+2018-03-03,North Carolina,Duke,64,74
 2018-03-03,Boston College,Florida State,76,85
 2018-03-03,Wake Forest,Georgia Tech,56,64
-2018-03-03,North Carolina,Duke,64,74
 2018-03-03,Virginia Tech,Miami,68,69
-2018-03-06,Georgia Tech,Boston College,77,87
+2018-03-03,Louisville,NC State,69,76
+2018-03-03,Clemson,Syracuse,52,55
+2018-03-03,Notre Dame,Virginia,57,62
 2018-03-06,Pitt,Notre Dame,64,67
 2018-03-06,Wake Forest,Syracuse,64,73
-2018-03-07,Syracuse,North Carolina,59,78
+2018-03-06,Georgia Tech,Boston College,77,87
 2018-03-07,Louisville,Florida State,82,74
 2018-03-07,Boston College,NC State,91,87
+2018-03-07,Syracuse,North Carolina,59,78
 2018-03-07,Notre Dame,Virginia Tech,71,65
-2018-03-08,Louisville,Virginia,58,75
 2018-03-08,North Carolina,Miami,82,65
-2018-03-08,Notre Dame,Duke,70,88
+2018-03-08,Louisville,Virginia,58,75
 2018-03-08,Boston College,Clemson,82,90
+2018-03-08,Notre Dame,Duke,70,88
 2018-03-09,North Carolina,Duke,74,69
 2018-03-09,Clemson,Virginia,58,64
 2018-03-10,North Carolina,Virginia,63,71
 2019-01-01,Notre Dame,Virginia Tech,66,81
 2019-01-03,NC State,Miami,87,82
 2019-01-05,Florida State,Virginia,52,65
-2019-01-05,North Carolina,Pitt,85,60
 2019-01-05,Boston College,Virginia Tech,66,77
+2019-01-05,North Carolina,Pitt,85,60
 2019-01-05,Wake Forest,Georgia Tech,79,92
 2019-01-05,Clemson,Duke,68,87
 2019-01-05,Syracuse,Notre Dame,72,62
@@ -461,15 +1091,15 @@ date,away_team,home_team,away_score,home_score
 2019-01-09,Virginia Tech,Georgia Tech,52,49
 2019-01-09,Louisville,Pitt,86,89
 2019-01-09,Clemson,Syracuse,53,61
-2019-01-12,Boston College,Notre Dame,66,69
-2019-01-12,Georgia Tech,Syracuse,73,59
 2019-01-12,Louisville,North Carolina,83,62
+2019-01-12,Boston College,Notre Dame,66,69
 2019-01-12,Pitt,NC State,80,86
-2019-01-12,Wake Forest,Miami,65,76
+2019-01-12,Georgia Tech,Syracuse,73,59
 2019-01-12,Duke,Florida State,80,78
 2019-01-12,Virginia,Clemson,63,43
-2019-01-14,Syracuse,Duke,95,91
+2019-01-12,Wake Forest,Miami,65,76
 2019-01-14,Florida State,Pitt,62,75
+2019-01-14,Syracuse,Duke,95,91
 2019-01-15,Notre Dame,North Carolina,69,75
 2019-01-15,Virginia Tech,Virginia,59,81
 2019-01-15,NC State,Wake Forest,67,71
@@ -489,54 +1119,54 @@ date,away_team,home_team,away_score,home_score
 2019-01-22,Duke,Pitt,79,64
 2019-01-24,Miami,Syracuse,53,73
 2019-01-24,NC State,Louisville,77,84
-2019-01-26,Syracuse,Virginia Tech,56,78
-2019-01-26,Boston College,Wake Forest,65,61
-2019-01-26,Virginia,Notre Dame,82,55
 2019-01-26,Georgia Tech,Duke,53,66
 2019-01-26,Pitt,Louisville,51,66
 2019-01-26,Clemson,NC State,67,69
+2019-01-26,Virginia,Notre Dame,82,55
+2019-01-26,Syracuse,Virginia Tech,56,78
+2019-01-26,Boston College,Wake Forest,65,61
 2019-01-27,Florida State,Miami,78,66
 2019-01-28,Duke,Notre Dame,83,61
+2019-01-29,Virginia,NC State,66,65
 2019-01-29,Pitt,Clemson,69,82
 2019-01-29,North Carolina,Georgia Tech,77,54
-2019-01-29,Virginia,NC State,66,65
 2019-01-30,Syracuse,Boston College,77,71
 2019-01-30,Virginia Tech,Miami,82,70
 2019-01-30,Louisville,Wake Forest,82,54
-2019-02-02,Miami,Virginia,46,56
 2019-02-02,Syracuse,Pitt,65,56
+2019-02-02,Miami,Virginia,46,56
 2019-02-02,Virginia Tech,NC State,47,24
-2019-02-02,Georgia Tech,Florida State,49,59
 2019-02-02,Notre Dame,Boston College,79,73
+2019-02-02,Georgia Tech,Florida State,49,59
 2019-02-02,North Carolina,Louisville,79,69
 2019-02-03,Wake Forest,Clemson,37,64
 2019-02-04,Louisville,Virginia Tech,72,64
-2019-02-05,Pitt,Wake Forest,76,78
 2019-02-05,Boston College,Duke,55,80
 2019-02-05,NC State,North Carolina,96,113
 2019-02-05,Florida State,Syracuse,80,62
-2019-02-06,Notre Dame,Miami,47,62
+2019-02-05,Pitt,Wake Forest,76,78
 2019-02-06,Clemson,Georgia Tech,65,42
-2019-02-09,Virginia Tech,Clemson,51,59
-2019-02-09,Louisville,Florida State,75,80
-2019-02-09,Miami,North Carolina,85,88
+2019-02-06,Notre Dame,Miami,47,62
+2019-02-09,Duke,Virginia,81,71
 2019-02-09,NC State,Pitt,79,76
 2019-02-09,Boston College,Syracuse,56,67
-2019-02-09,Duke,Virginia,81,71
+2019-02-09,Louisville,Florida State,75,80
+2019-02-09,Virginia Tech,Clemson,51,59
+2019-02-09,Miami,North Carolina,85,88
 2019-02-10,Georgia Tech,Notre Dame,59,69
 2019-02-11,Virginia,North Carolina,69,61
 2019-02-12,Pitt,Boston College,57,66
 2019-02-12,Duke,Louisville,71,69
 2019-02-13,Georgia Tech,Virginia Tech,68,76
 2019-02-13,Syracuse,NC State,58,73
-2019-02-13,Wake Forest,Florida State,66,88
 2019-02-13,Clemson,Miami,64,65
-2019-02-16,North Carolina,Wake Forest,95,57
+2019-02-13,Wake Forest,Florida State,66,88
+2019-02-16,Notre Dame,Virginia,54,60
 2019-02-16,NC State,Duke,78,94
 2019-02-16,Florida State,Georgia Tech,69,47
 2019-02-16,Clemson,Louisville,55,56
 2019-02-16,Virginia Tech,Pitt,70,64
-2019-02-16,Notre Dame,Virginia,54,60
+2019-02-16,North Carolina,Wake Forest,95,57
 2019-02-17,Miami,Boston College,57,64
 2019-02-18,Virginia,Virginia Tech,64,58
 2019-02-19,Florida State,Clemson,77,64
@@ -545,32 +1175,32 @@ date,away_team,home_team,away_score,home_score
 2019-02-20,Pitt,Georgia Tech,65,73
 2019-02-20,Boston College,NC State,80,89
 2019-02-20,Louisville,Syracuse,49,69
-2019-02-23,Duke,Syracuse,75,65
+2019-02-23,Boston College,Clemson,66,76
+2019-02-23,Virginia,Louisville,64,52
+2019-02-23,Georgia Tech,Miami,65,80
 2019-02-23,Florida State,North Carolina,59,77
 2019-02-23,Virginia Tech,Notre Dame,67,59
-2019-02-23,Virginia,Louisville,64,52
-2019-02-23,Boston College,Clemson,66,76
-2019-02-23,Georgia Tech,Miami,65,80
+2019-02-23,Duke,Syracuse,75,65
 2019-02-24,Wake Forest,NC State,74,94
 2019-02-25,Notre Dame,Florida State,61,68
-2019-02-26,Syracuse,North Carolina,85,93
-2019-02-26,Duke,Virginia Tech,72,77
 2019-02-26,Miami,Wake Forest,75,76
+2019-02-26,Duke,Virginia Tech,72,77
+2019-02-26,Syracuse,North Carolina,85,93
 2019-02-27,Louisville,Boston College,59,66
 2019-02-27,Clemson,Pitt,62,48
 2019-02-27,Georgia Tech,Virginia,51,81
-2019-03-02,Syracuse,Wake Forest,79,54
 2019-03-02,Pitt,Virginia,49,73
 2019-03-02,NC State,Florida State,73,78
-2019-03-02,Miami,Duke,57,87
+2019-03-02,Syracuse,Wake Forest,79,54
 2019-03-02,North Carolina,Clemson,81,79
+2019-03-02,Miami,Duke,57,87
 2019-03-03,Boston College,Georgia Tech,78,81
 2019-03-03,Notre Dame,Louisville,61,75
 2019-03-04,Virginia,Syracuse,79,53
+2019-03-05,Pitt,Miami,63,76
 2019-03-05,North Carolina,Boston College,79,66
 2019-03-05,Wake Forest,Duke,70,71
 2019-03-05,Virginia Tech,Florida State,64,73
-2019-03-05,Pitt,Miami,63,76
 2019-03-06,Clemson,Notre Dame,64,62
 2019-03-06,Georgia Tech,NC State,63,61
 2019-03-08,Miami,Virginia Tech,70,84
@@ -580,13 +1210,13 @@ date,away_team,home_team,away_score,home_score
 2019-03-09,Notre Dame,Pitt,53,56
 2019-03-09,Louisville,Virginia,68,73
 2019-03-09,Florida State,Wake Forest,65,57
-2019-03-12,Wake Forest,Miami,71,79
 2019-03-12,Pitt,Boston College,80,70
 2019-03-12,Notre Dame,Georgia Tech,78,71
-2019-03-13,Pitt,Syracuse,59,73
-2019-03-13,Miami,Virginia Tech,56,71
+2019-03-12,Wake Forest,Miami,71,79
 2019-03-13,Notre Dame,Louisville,53,75
 2019-03-13,Clemson,NC State,58,59
+2019-03-13,Pitt,Syracuse,59,73
+2019-03-13,Miami,Virginia Tech,56,71
 2019-03-14,NC State,Virginia,56,76
 2019-03-14,Louisville,North Carolina,70,83
 2019-03-14,Syracuse,Duke,72,84
@@ -601,64 +1231,64 @@ date,away_team,home_team,away_score,home_score
 2019-11-06,Notre Dame,North Carolina,65,76
 2019-11-06,Florida State,Pitt,61,63
 2019-11-06,Virginia,Syracuse,48,34
-2019-12-06,Duke,Virginia Tech,77,63
 2019-12-06,Pitt,Louisville,46,64
-2019-12-07,Syracuse,Georgia Tech,97,63
+2019-12-06,Duke,Virginia Tech,77,63
 2019-12-07,Boston College,Notre Dame,73,72
+2019-12-07,Syracuse,Georgia Tech,97,63
 2019-12-07,NC State,Wake Forest,91,82
-2019-12-08,Clemson,Florida State,53,72
 2019-12-08,North Carolina,Virginia,47,56
+2019-12-08,Clemson,Florida State,53,72
 2019-12-31,Miami,Clemson,73,68
 2019-12-31,Boston College,Duke,49,88
 2019-12-31,Georgia Tech,Florida State,58,70
-2020-01-04,Virginia Tech,Virginia,39,65
-2020-01-04,Notre Dame,Syracuse,88,87
-2020-01-04,Wake Forest,Pitt,69,65
-2020-01-04,Duke,Miami,95,62
-2020-01-04,Florida State,Louisville,78,65
 2020-01-04,NC State,Clemson,70,81
+2020-01-04,Florida State,Louisville,78,65
+2020-01-04,Duke,Miami,95,62
 2020-01-04,Georgia Tech,North Carolina,96,83
+2020-01-04,Wake Forest,Pitt,69,65
+2020-01-04,Notre Dame,Syracuse,88,87
+2020-01-04,Virginia Tech,Virginia,39,65
 2020-01-07,Virginia,Boston College,53,60
 2020-01-07,Miami,Louisville,58,74
 2020-01-07,Virginia Tech,Syracuse,67,63
+2020-01-08,Pitt,North Carolina,73,65
 2020-01-08,Florida State,Wake Forest,78,68
 2020-01-08,Duke,Georgia Tech,73,64
 2020-01-08,Notre Dame,NC State,68,73
-2020-01-08,Pitt,North Carolina,73,65
-2020-01-11,NC State,Virginia Tech,58,72
-2020-01-11,Syracuse,Virginia,63,55
-2020-01-11,Louisville,Notre Dame,67,64
 2020-01-11,Georgia Tech,Boston College,71,52
 2020-01-11,Wake Forest,Duke,59,90
 2020-01-11,Clemson,North Carolina,79,76
+2020-01-11,Louisville,Notre Dame,67,64
+2020-01-11,Syracuse,Virginia,63,55
+2020-01-11,NC State,Virginia Tech,58,72
 2020-01-12,Pitt,Miami,58,66
-2020-01-14,Louisville,Pitt,73,68
-2020-01-14,Duke,Clemson,72,79
 2020-01-14,Virginia Tech,Wake Forest,80,70
-2020-01-15,Boston College,Syracuse,50,76
-2020-01-15,Miami,NC State,63,80
-2020-01-15,Notre Dame,Georgia Tech,78,74
+2020-01-14,Duke,Clemson,72,79
+2020-01-14,Louisville,Pitt,73,68
 2020-01-15,Virginia,Florida State,50,54
-2020-01-18,Louisville,Duke,79,73
-2020-01-18,Virginia,Georgia Tech,63,58
-2020-01-18,Florida State,Miami,83,79
-2020-01-18,Clemson,NC State,54,60
+2020-01-15,Notre Dame,Georgia Tech,78,74
+2020-01-15,Miami,NC State,63,80
+2020-01-15,Boston College,Syracuse,50,76
 2020-01-18,North Carolina,Pitt,52,66
 2020-01-18,Syracuse,Virginia Tech,71,69
+2020-01-18,Clemson,NC State,54,60
+2020-01-18,Florida State,Miami,83,79
+2020-01-18,Virginia,Georgia Tech,63,58
+2020-01-18,Louisville,Duke,79,73
 2020-01-19,Boston College,Wake Forest,62,80
 2020-01-20,NC State,Virginia,53,51
-2020-01-21,Miami,Duke,59,89
 2020-01-21,Wake Forest,Clemson,68,71
+2020-01-21,Miami,Duke,59,89
 2020-01-22,Georgia Tech,Louisville,64,68
 2020-01-22,Syracuse,Notre Dame,84,82
 2020-01-22,Boston College,Pitt,72,74
 2020-01-22,North Carolina,Virginia Tech,77,79
-2020-01-25,Pitt,Syracuse,61,69
 2020-01-25,Virginia Tech,Boston College,56,61
 2020-01-25,Notre Dame,Florida State,84,85
 2020-01-25,NC State,Georgia Tech,58,64
 2020-01-25,Clemson,Louisville,62,80
 2020-01-25,Miami,North Carolina,71,94
+2020-01-25,Pitt,Syracuse,61,69
 2020-01-26,Virginia,Wake Forest,65,63
 2020-01-27,North Carolina,NC State,75,65
 2020-01-28,Syracuse,Clemson,70,71
@@ -667,34 +1297,34 @@ date,away_team,home_team,away_score,home_score
 2020-01-28,Florida State,Virginia,56,61
 2020-01-29,Louisville,Boston College,86,69
 2020-01-29,Wake Forest,Notre Dame,80,90
-2020-02-01,Clemson,Wake Forest,44,56
+2020-02-01,Louisville,NC State,77,57
+2020-02-01,Boston College,North Carolina,71,70
+2020-02-01,Georgia Tech,Notre Dame,72,80
 2020-02-01,Duke,Syracuse,97,88
 2020-02-01,Florida State,Virginia Tech,74,63
-2020-02-01,Boston College,North Carolina,71,70
-2020-02-01,Louisville,NC State,77,57
-2020-02-01,Georgia Tech,Notre Dame,72,80
+2020-02-01,Clemson,Wake Forest,44,56
 2020-02-02,Miami,Pitt,57,62
 2020-02-03,North Carolina,Florida State,59,65
-2020-02-04,Duke,Boston College,63,55
 2020-02-04,Virginia Tech,Georgia Tech,57,76
+2020-02-04,Duke,Boston College,63,55
 2020-02-05,Wake Forest,Louisville,76,86
 2020-02-05,NC State,Miami,83,72
 2020-02-05,Pitt,Notre Dame,72,80
 2020-02-05,Clemson,Virginia,44,51
-2020-02-08,Boston College,Virginia Tech,77,73
-2020-02-08,Wake Forest,Syracuse,73,75
-2020-02-08,Georgia Tech,Pitt,64,73
-2020-02-08,Duke,North Carolina,98,96
-2020-02-08,Virginia,Louisville,73,80
 2020-02-08,Miami,Florida State,81,99
+2020-02-08,Virginia,Louisville,73,80
+2020-02-08,Duke,North Carolina,98,96
+2020-02-08,Georgia Tech,Pitt,64,73
+2020-02-08,Wake Forest,Syracuse,73,75
+2020-02-08,Boston College,Virginia Tech,77,73
 2020-02-09,Notre Dame,Clemson,61,57
 2020-02-10,Florida State,Duke,65,70
-2020-02-11,NC State,Syracuse,79,74
 2020-02-11,Notre Dame,Virginia,49,50
 2020-02-11,North Carolina,Wake Forest,57,74
+2020-02-11,NC State,Syracuse,79,74
+2020-02-12,Louisville,Georgia Tech,58,64
 2020-02-12,Boston College,Miami,58,85
 2020-02-12,Clemson,Pitt,72,52
-2020-02-12,Louisville,Georgia Tech,58,64
 2020-02-15,Louisville,Clemson,62,77
 2020-02-15,Notre Dame,Duke,60,94
 2020-02-15,Syracuse,Florida State,77,80
@@ -704,9 +1334,9 @@ date,away_team,home_team,away_score,home_score
 2020-02-16,NC State,Boston College,68,71
 2020-02-17,North Carolina,Notre Dame,76,77
 2020-02-18,Pitt,Florida State,67,82
-2020-02-19,Georgia Tech,Wake Forest,86,79
-2020-02-19,Boston College,Virginia,65,78
 2020-02-19,Miami,Virginia Tech,102,95
+2020-02-19,Boston College,Virginia,65,78
+2020-02-19,Georgia Tech,Wake Forest,86,79
 2020-02-19,Syracuse,Louisville,66,90
 2020-02-19,Duke,NC State,66,88
 2020-02-22,Clemson,Boston College,82,64
@@ -717,35 +1347,35 @@ date,away_team,home_team,away_score,home_score
 2020-02-22,Georgia Tech,Syracuse,72,79
 2020-02-23,Miami,Notre Dame,71,87
 2020-02-24,Louisville,Florida State,67,82
-2020-02-25,Duke,Wake Forest,101,113
 2020-02-25,Clemson,Georgia Tech,59,68
 2020-02-25,NC State,North Carolina,79,85
+2020-02-25,Duke,Wake Forest,101,113
 2020-02-26,Notre Dame,Boston College,62,61
 2020-02-26,Syracuse,Pitt,72,49
 2020-02-26,Virginia,Virginia Tech,56,53
+2020-02-29,Notre Dame,Wake Forest,73,84
 2020-02-29,Duke,Virginia,50,52
+2020-02-29,North Carolina,Syracuse,92,79
 2020-02-29,Florida State,Clemson,69,70
 2020-02-29,Miami,Georgia Tech,57,63
 2020-02-29,Pitt,NC State,73,77
-2020-02-29,North Carolina,Syracuse,92,79
-2020-02-29,Notre Dame,Wake Forest,73,84
 2020-03-01,Virginia Tech,Louisville,52,68
 2020-03-02,NC State,Duke,69,88
-2020-03-03,Wake Forest,North Carolina,83,93
 2020-03-03,Syracuse,Boston College,84,71
+2020-03-03,Wake Forest,North Carolina,83,93
 2020-03-04,Pitt,Georgia Tech,57,73
 2020-03-04,Virginia,Miami,46,44
 2020-03-04,Florida State,Notre Dame,73,71
 2020-03-04,Clemson,Virginia Tech,58,70
 2020-03-06,Georgia Tech,Clemson,65,62
 2020-03-06,Wake Forest,NC State,64,84
-2020-03-07,Louisville,Virginia,54,57
-2020-03-07,Syracuse,Miami,65,69
 2020-03-07,Virginia Tech,Notre Dame,56,64
+2020-03-07,Syracuse,Miami,65,69
+2020-03-07,Louisville,Virginia,54,57
 2020-03-07,North Carolina,Duke,76,89
 2020-03-07,Boston College,Florida State,62,80
-2020-03-10,North Carolina,Virginia Tech,78,56
 2020-03-10,Pitt,Wake Forest,81,72
+2020-03-10,North Carolina,Virginia Tech,78,56
 2020-03-11,Miami,Clemson,64,69
 2020-03-11,Pitt,NC State,58,73
 2020-03-11,Boston College,Notre Dame,58,80
@@ -759,12 +1389,12 @@ date,away_team,home_team,away_score,home_score
 2020-12-22,Louisville,Pitt,64,54
 2020-12-29,Florida State,Clemson,67,77
 2020-12-29,Miami,Virginia Tech,78,80
+2020-12-30,Virginia,Notre Dame,66,57
 2020-12-30,North Carolina,Georgia Tech,67,72
 2020-12-30,Boston College,NC State,76,79
-2020-12-30,Virginia,Notre Dame,66,57
 2021-01-02,Notre Dame,North Carolina,65,66
-2021-01-02,Clemson,Miami,66,65
 2021-01-02,Louisville,Boston College,76,64
+2021-01-02,Clemson,Miami,66,65
 2021-01-03,Wake Forest,Georgia Tech,54,70
 2021-01-05,NC State,Clemson,70,74
 2021-01-05,North Carolina,Miami,67,65
@@ -772,21 +1402,21 @@ date,away_team,home_team,away_score,home_score
 2021-01-06,Virginia Tech,Louisville,71,73
 2021-01-06,Pitt,Syracuse,63,60
 2021-01-06,Wake Forest,Virginia,61,70
+2021-01-09,Virginia,Boston College,61,49
 2021-01-09,Wake Forest,Duke,68,79
 2021-01-09,Miami,NC State,64,59
-2021-01-09,Virginia,Boston College,61,49
 2021-01-10,Notre Dame,Virginia Tech,63,77
-2021-01-12,Syracuse,North Carolina,75,81
-2021-01-12,Miami,Boston College,62,84
 2021-01-12,Duke,Virginia Tech,67,74
-2021-01-13,Notre Dame,Virginia,68,80
-2021-01-13,NC State,Florida State,73,105
+2021-01-12,Miami,Boston College,62,84
+2021-01-12,Syracuse,North Carolina,75,81
 2021-01-13,Louisville,Wake Forest,77,65
-2021-01-16,Syracuse,Pitt,76,96
-2021-01-16,Boston College,Notre Dame,70,80
-2021-01-16,North Carolina,Florida State,75,82
+2021-01-13,NC State,Florida State,73,105
+2021-01-13,Notre Dame,Virginia,68,80
 2021-01-16,Virginia,Clemson,85,50
+2021-01-16,North Carolina,Florida State,75,82
 2021-01-16,Louisville,Miami,72,78
+2021-01-16,Boston College,Notre Dame,70,80
+2021-01-16,Syracuse,Pitt,76,96
 2021-01-17,Virginia Tech,Wake Forest,64,60
 2021-01-18,Florida State,Louisville,78,65
 2021-01-19,Duke,Pitt,73,79
@@ -796,9 +1426,9 @@ date,away_team,home_team,away_score,home_score
 2021-01-23,Georgia Tech,Virginia,62,64
 2021-01-23,Pitt,Wake Forest,75,76
 2021-01-23,Virginia Tech,Syracuse,60,78
-2021-01-23,NC State,North Carolina,76,86
 2021-01-23,Duke,Louisville,65,70
 2021-01-23,Clemson,Florida State,61,80
+2021-01-23,NC State,North Carolina,76,86
 2021-01-24,Notre Dame,Miami,73,59
 2021-01-25,Syracuse,Virginia,58,81
 2021-01-26,Georgia Tech,Duke,68,75
@@ -807,28 +1437,28 @@ date,away_team,home_team,away_score,home_score
 2021-01-27,Miami,Florida State,59,81
 2021-01-27,Wake Forest,NC State,67,72
 2021-01-27,Virginia Tech,Notre Dame,62,51
-2021-01-30,Florida State,Georgia Tech,65,76
-2021-01-30,Miami,Wake Forest,54,66
 2021-01-30,Virginia,Virginia Tech,51,65
 2021-01-30,Clemson,Duke,53,79
+2021-01-30,Florida State,Georgia Tech,65,76
 2021-01-30,Notre Dame,Pitt,84,58
+2021-01-30,Miami,Wake Forest,54,66
 2021-01-31,NC State,Syracuse,73,76
-2021-02-01,Georgia Tech,Louisville,58,74
 2021-02-01,Duke,Miami,75,77
+2021-02-01,Georgia Tech,Louisville,58,74
 2021-02-02,North Carolina,Clemson,50,63
 2021-02-02,Wake Forest,Notre Dame,58,79
 2021-02-03,Virginia,NC State,64,57
 2021-02-03,Virginia Tech,Pitt,72,83
+2021-02-06,Pitt,Virginia,66,73
+2021-02-06,Notre Dame,Georgia Tech,80,82
+2021-02-06,Virginia Tech,Miami,80,76
 2021-02-06,Syracuse,Clemson,61,78
 2021-02-06,NC State,Boston College,81,65
 2021-02-06,North Carolina,Duke,91,87
-2021-02-06,Notre Dame,Georgia Tech,80,82
-2021-02-06,Virginia Tech,Miami,80,76
-2021-02-06,Pitt,Virginia,66,73
 2021-02-09,Notre Dame,Duke,93,89
 2021-02-09,Syracuse,NC State,77,68
-2021-02-10,Virginia,Georgia Tech,57,49
 2021-02-10,Wake Forest,Boston College,69,65
+2021-02-10,Virginia,Georgia Tech,57,49
 2021-02-12,Georgia Tech,Clemson,72,74
 2021-02-13,North Carolina,Virginia,48,60
 2021-02-13,Boston College,Syracuse,67,75
@@ -839,32 +1469,32 @@ date,away_team,home_team,away_score,home_score
 2021-02-15,Virginia,Florida State,60,81
 2021-02-17,NC State,Pitt,74,73
 2021-02-17,Duke,Wake Forest,84,60
-2021-02-20,NC State,Wake Forest,80,62
-2021-02-20,Notre Dame,Syracuse,67,75
-2021-02-20,Florida State,Pitt,79,72
-2021-02-20,Georgia Tech,Miami,87,60
 2021-02-20,Virginia,Duke,65,66
+2021-02-20,Georgia Tech,Miami,87,60
 2021-02-20,Louisville,North Carolina,54,99
+2021-02-20,Florida State,Pitt,79,72
+2021-02-20,Notre Dame,Syracuse,67,75
+2021-02-20,NC State,Wake Forest,80,62
 2021-02-22,Syracuse,Duke,71,85
 2021-02-23,Notre Dame,Louisville,57,69
 2021-02-23,Georgia Tech,Virginia Tech,69,53
+2021-02-24,Clemson,Wake Forest,60,39
 2021-02-24,Florida State,Miami,88,71
 2021-02-24,NC State,Virginia,68,61
-2021-02-24,Clemson,Wake Forest,60,39
-2021-02-27,Wake Forest,Virginia Tech,46,84
-2021-02-27,Syracuse,Georgia Tech,77,84
-2021-02-27,Florida State,North Carolina,70,78
+2021-02-27,Notre Dame,Boston College,90,94
 2021-02-27,Miami,Clemson,58,66
 2021-02-27,Louisville,Duke,80,73
-2021-02-27,Notre Dame,Boston College,90,94
+2021-02-27,Syracuse,Georgia Tech,77,84
+2021-02-27,Florida State,North Carolina,70,78
+2021-02-27,Wake Forest,Virginia Tech,46,84
 2021-02-28,Pitt,NC State,62,65
 2021-03-01,North Carolina,Syracuse,70,72
 2021-03-01,Miami,Virginia,51,62
 2021-03-02,Duke,Georgia Tech,77,81
 2021-03-02,Wake Forest,Pitt,57,70
+2021-03-03,Clemson,Syracuse,54,64
 2021-03-03,Boston College,Florida State,64,93
 2021-03-03,NC State,Notre Dame,80,69
-2021-03-03,Clemson,Syracuse,54,64
 2021-03-05,Georgia Tech,Wake Forest,75,63
 2021-03-05,Boston College,Miami,76,80
 2021-03-06,Pitt,Clemson,62,77
@@ -874,10 +1504,10 @@ date,away_team,home_team,away_score,home_score
 2021-03-09,Boston College,Duke,51,86
 2021-03-09,Wake Forest,Notre Dame,77,80
 2021-03-09,Miami,Pitt,79,73
-2021-03-10,NC State,Syracuse,68,89
 2021-03-10,Miami,Clemson,67,64
 2021-03-10,Duke,Louisville,70,56
 2021-03-10,Notre Dame,North Carolina,59,101
+2021-03-10,NC State,Syracuse,68,89
 2021-03-11,Syracuse,Virginia,69,72
 2021-03-11,North Carolina,Virginia Tech,81,73
 2021-03-11,Miami,Georgia Tech,66,70
@@ -893,20 +1523,20 @@ date,away_team,home_team,away_score,home_score
 2021-12-22,Virginia Tech,Duke,65,76
 2021-12-22,Clemson,Virginia,67,50
 2021-12-28,Notre Dame,Pitt,68,67
-2021-12-29,NC State,Miami,83,91
 2021-12-29,Wake Forest,Louisville,69,73
+2021-12-29,NC State,Miami,83,91
 2022-01-01,Wake Forest,Miami,84,92
 2022-01-01,Florida State,NC State,83,81
 2022-01-01,Virginia,Syracuse,74,69
-2022-01-02,North Carolina,Boston College,91,65
 2022-01-02,Louisville,Georgia Tech,67,64
+2022-01-02,North Carolina,Boston College,91,65
 2022-01-04,Virginia,Clemson,75,65
 2022-01-04,Georgia Tech,Duke,57,69
 2022-01-04,NC State,Virginia Tech,68,63
 2022-01-04,Florida State,Wake Forest,54,76
-2022-01-05,North Carolina,Notre Dame,73,78
-2022-01-05,Syracuse,Miami,87,88
 2022-01-05,Pitt,Louisville,72,75
+2022-01-05,Syracuse,Miami,87,88
+2022-01-05,North Carolina,Notre Dame,73,78
 2022-01-08,Miami,Duke,76,74
 2022-01-08,Louisville,Florida State,70,79
 2022-01-08,Notre Dame,Georgia Tech,72,68
@@ -914,111 +1544,111 @@ date,away_team,home_team,away_score,home_score
 2022-01-08,Virginia,North Carolina,58,74
 2022-01-08,Boston College,Pitt,67,69
 2022-01-08,Syracuse,Wake Forest,74,77
-2022-01-11,Miami,Florida State,64,65
 2022-01-11,Pitt,Syracuse,61,77
-2022-01-12,Duke,Wake Forest,76,64
-2022-01-12,Virginia Tech,Virginia,52,54
-2022-01-12,NC State,Louisville,79,63
+2022-01-11,Miami,Florida State,64,65
 2022-01-12,Georgia Tech,Boston College,81,76
+2022-01-12,NC State,Louisville,79,63
 2022-01-12,Clemson,Notre Dame,56,72
-2022-01-15,Notre Dame,Virginia Tech,73,79
+2022-01-12,Virginia Tech,Virginia,52,54
+2022-01-12,Duke,Wake Forest,76,64
+2022-01-15,Georgia Tech,North Carolina,65,88
 2022-01-15,Boston College,Clemson,70,68
 2022-01-15,NC State,Duke,73,88
-2022-01-15,Georgia Tech,North Carolina,65,88
 2022-01-15,Louisville,Pitt,53,65
 2022-01-15,Florida State,Syracuse,76,71
 2022-01-15,Wake Forest,Virginia,63,55
+2022-01-15,Notre Dame,Virginia Tech,73,79
 2022-01-18,Clemson,Syracuse,78,91
 2022-01-18,North Carolina,Miami,57,85
 2022-01-18,Duke,Florida State,78,79
+2022-01-19,Virginia,Pitt,66,61
+2022-01-19,Virginia Tech,NC State,62,59
 2022-01-19,Wake Forest,Georgia Tech,80,64
 2022-01-19,Boston College,Louisville,54,67
-2022-01-19,Virginia Tech,NC State,62,59
-2022-01-19,Virginia,Pitt,66,61
-2022-01-22,Virginia,NC State,63,77
-2022-01-22,Florida State,Miami,61,60
-2022-01-22,Notre Dame,Louisville,82,70
-2022-01-22,North Carolina,Wake Forest,76,98
-2022-01-22,Pitt,Clemson,48,75
 2022-01-22,Virginia Tech,Boston College,63,68
+2022-01-22,Pitt,Clemson,48,75
 2022-01-22,Syracuse,Duke,59,79
-2022-01-24,Virginia Tech,North Carolina,68,78
+2022-01-22,Notre Dame,Louisville,82,70
+2022-01-22,Florida State,Miami,61,60
+2022-01-22,Virginia,NC State,63,77
+2022-01-22,North Carolina,Wake Forest,76,98
 2022-01-24,Louisville,Virginia,52,64
+2022-01-24,Virginia Tech,North Carolina,68,78
 2022-01-24,Boston College,Wake Forest,57,87
-2022-01-25,Clemson,Duke,69,71
 2022-01-25,Syracuse,Pitt,53,64
-2022-01-26,Florida State,Georgia Tech,61,75
-2022-01-26,Boston College,North Carolina,47,58
+2022-01-25,Clemson,Duke,69,71
 2022-01-26,NC State,Notre Dame,65,73
 2022-01-26,Miami,Virginia Tech,78,75
+2022-01-26,Florida State,Georgia Tech,61,75
+2022-01-26,Boston College,North Carolina,47,58
+2022-01-29,Virginia Tech,Florida State,85,72
+2022-01-29,Miami,Georgia Tech,73,62
+2022-01-29,Duke,Louisville,74,65
+2022-01-29,NC State,North Carolina,80,100
 2022-01-29,Virginia,Notre Dame,65,69
 2022-01-29,Wake Forest,Syracuse,72,94
-2022-01-29,NC State,North Carolina,80,100
-2022-01-29,Duke,Louisville,74,65
-2022-01-29,Miami,Georgia Tech,73,62
-2022-01-29,Virginia Tech,Florida State,85,72
 2022-01-30,Pitt,Boston College,56,69
 2022-01-31,Duke,Notre Dame,57,43
 2022-02-01,North Carolina,Louisville,90,83
 2022-02-01,Boston College,Virginia,55,67
-2022-02-02,Georgia Tech,Virginia Tech,66,81
-2022-02-02,Syracuse,NC State,89,82
-2022-02-02,Pitt,Wake Forest,75,91
 2022-02-02,Florida State,Clemson,69,75
 2022-02-02,Notre Dame,Miami,68,64
-2022-02-05,Wake Forest,Florida State,68,60
-2022-02-05,Clemson,Georgia Tech,64,69
-2022-02-05,Notre Dame,NC State,69,57
-2022-02-05,Duke,North Carolina,87,67
-2022-02-05,Virginia Tech,Pitt,76,71
-2022-02-05,Louisville,Syracuse,69,92
+2022-02-02,Syracuse,NC State,89,82
+2022-02-02,Georgia Tech,Virginia Tech,66,81
+2022-02-02,Pitt,Wake Forest,75,91
 2022-02-05,Miami,Virginia,58,71
+2022-02-05,Louisville,Syracuse,69,92
+2022-02-05,Virginia Tech,Pitt,76,71
+2022-02-05,Wake Forest,Florida State,68,60
+2022-02-05,Notre Dame,NC State,69,57
+2022-02-05,Clemson,Georgia Tech,64,69
+2022-02-05,Duke,North Carolina,87,67
 2022-02-07,Virginia,Duke,69,68
 2022-02-07,Pitt,Virginia Tech,47,74
 2022-02-08,Syracuse,Boston College,73,64
 2022-02-08,North Carolina,Clemson,79,77
+2022-02-09,Pitt,Florida State,56,51
 2022-02-09,Georgia Tech,Miami,70,79
 2022-02-09,Wake Forest,NC State,69,51
-2022-02-09,Pitt,Florida State,56,51
 2022-02-09,Louisville,Notre Dame,57,63
 2022-02-10,Duke,Clemson,82,64
-2022-02-12,Duke,Boston College,72,61
+2022-02-12,Miami,Wake Forest,76,72
+2022-02-12,Syracuse,Virginia Tech,59,71
+2022-02-12,Georgia Tech,Virginia,53,63
 2022-02-12,Notre Dame,Clemson,76,61
 2022-02-12,Florida State,North Carolina,74,94
+2022-02-12,Duke,Boston College,72,61
 2022-02-12,NC State,Pitt,69,71
-2022-02-12,Georgia Tech,Virginia,53,63
-2022-02-12,Syracuse,Virginia Tech,59,71
-2022-02-12,Miami,Wake Forest,76,72
 2022-02-14,Virginia,Virginia Tech,53,62
+2022-02-15,Wake Forest,Duke,74,76
 2022-02-15,Clemson,Florida State,80,81
 2022-02-15,NC State,Georgia Tech,76,61
-2022-02-15,Wake Forest,Duke,74,76
 2022-02-16,Miami,Louisville,70,63
 2022-02-16,Pitt,North Carolina,76,67
 2022-02-16,Boston College,Notre Dame,95,99
-2022-02-19,Notre Dame,Wake Forest,74,79
-2022-02-19,Florida State,Duke,70,88
-2022-02-19,Clemson,Louisville,61,70
-2022-02-19,Virginia,Miami,74,71
-2022-02-19,Georgia Tech,Pitt,68,62
-2022-02-19,Boston College,Syracuse,56,76
 2022-02-19,North Carolina,Virginia Tech,65,57
+2022-02-19,Boston College,Syracuse,56,76
+2022-02-19,Georgia Tech,Pitt,68,62
+2022-02-19,Notre Dame,Wake Forest,74,79
+2022-02-19,Clemson,Louisville,61,70
+2022-02-19,Florida State,Duke,70,88
+2022-02-19,Virginia,Miami,74,71
+2022-02-21,Florida State,Boston College,55,71
 2022-02-21,Louisville,North Carolina,63,70
 2022-02-21,Georgia Tech,Syracuse,73,74
-2022-02-21,Florida State,Boston College,55,71
 2022-02-22,Miami,Pitt,85,64
+2022-02-23,Duke,Virginia,65,61
+2022-02-23,Syracuse,Notre Dame,69,79
+2022-02-23,Boston College,NC State,69,61
 2022-02-23,Wake Forest,Clemson,69,80
 2022-02-23,Virginia Tech,Georgia Tech,62,58
-2022-02-23,Boston College,NC State,69,61
-2022-02-23,Syracuse,Notre Dame,69,79
-2022-02-23,Duke,Virginia,65,61
+2022-02-26,Florida State,Virginia,64,63
+2022-02-26,Clemson,Boston College,70,60
+2022-02-26,Virginia Tech,Miami,71,70
+2022-02-26,North Carolina,NC State,84,74
+2022-02-26,Georgia Tech,Notre Dame,56,90
 2022-02-26,Duke,Syracuse,97,72
 2022-02-26,Louisville,Wake Forest,77,99
-2022-02-26,Florida State,Virginia,64,63
-2022-02-26,Georgia Tech,Notre Dame,56,90
-2022-02-26,North Carolina,NC State,84,74
-2022-02-26,Virginia Tech,Miami,71,70
-2022-02-26,Clemson,Boston College,70,60
 2022-02-28,Syracuse,North Carolina,79,88
 2022-03-01,Duke,Pitt,86,56
 2022-03-01,Louisville,Virginia Tech,43,75
@@ -1026,58 +1656,58 @@ date,away_team,home_team,away_score,home_score
 2022-03-02,Georgia Tech,Clemson,65,68
 2022-03-02,Notre Dame,Florida State,70,74
 2022-03-02,NC State,Wake Forest,76,101
-2022-03-05,Pitt,Notre Dame,54,78
 2022-03-05,Miami,Syracuse,75,72
+2022-03-05,Pitt,Notre Dame,54,78
 2022-03-05,Virginia,Louisville,71,61
 2022-03-05,NC State,Florida State,76,89
-2022-03-05,Boston College,Georgia Tech,78,82
 2022-03-05,North Carolina,Duke,94,81
 2022-03-05,Virginia Tech,Clemson,59,63
+2022-03-05,Boston College,Georgia Tech,78,82
 2022-03-08,NC State,Clemson,64,70
 2022-03-08,Georgia Tech,Louisville,74,84
 2022-03-08,Boston College,Pitt,66,46
-2022-03-09,Syracuse,Florida State,96,57
-2022-03-09,Louisville,Virginia,50,51
-2022-03-09,Clemson,Virginia Tech,75,76
 2022-03-09,Boston College,Wake Forest,82,77
-2022-03-10,Virginia Tech,Notre Dame,87,80
-2022-03-10,Virginia,North Carolina,43,63
-2022-03-10,Boston College,Miami,69,71
+2022-03-09,Clemson,Virginia Tech,75,76
+2022-03-09,Louisville,Virginia,50,51
+2022-03-09,Syracuse,Florida State,96,57
 2022-03-10,Syracuse,Duke,79,88
+2022-03-10,Boston College,Miami,69,71
+2022-03-10,Virginia,North Carolina,43,63
+2022-03-10,Virginia Tech,Notre Dame,87,80
 2022-03-11,Miami,Duke,76,80
 2022-03-11,Virginia Tech,North Carolina,72,59
 2022-03-12,Virginia Tech,Duke,82,67
 2022-12-02,Wake Forest,Clemson,57,77
 2022-12-02,Pitt,NC State,68,60
 2022-12-03,Boston College,Duke,59,75
-2022-12-03,Florida State,Virginia,57,62
 2022-12-03,Syracuse,Notre Dame,62,61
-2022-12-04,North Carolina,Virginia Tech,72,80
+2022-12-03,Florida State,Virginia,57,62
 2022-12-04,Miami,Louisville,80,53
+2022-12-04,North Carolina,Virginia Tech,72,80
+2022-12-10,Georgia Tech,North Carolina,59,75
 2022-12-10,Louisville,Florida State,53,75
 2022-12-10,NC State,Miami,73,80
-2022-12-10,Georgia Tech,North Carolina,59,75
 2022-12-20,Virginia,Miami,64,66
 2022-12-20,Pitt,Syracuse,84,82
 2022-12-20,Duke,Wake Forest,70,81
+2022-12-21,Virginia Tech,Boston College,65,70
 2022-12-21,Notre Dame,Florida State,72,73
 2022-12-21,Clemson,Georgia Tech,79,66
-2022-12-21,Virginia Tech,Boston College,65,70
 2022-12-22,Louisville,NC State,64,76
+2022-12-30,North Carolina,Pitt,74,76
 2022-12-30,NC State,Clemson,64,78
 2022-12-30,Miami,Notre Dame,76,65
-2022-12-30,North Carolina,Pitt,74,76
-2022-12-31,Virginia Tech,Wake Forest,75,77
 2022-12-31,Florida State,Duke,67,86
 2022-12-31,Virginia,Georgia Tech,74,56
 2022-12-31,Boston College,Syracuse,65,79
-2023-01-03,Syracuse,Louisville,70,69
+2022-12-31,Virginia Tech,Wake Forest,75,77
 2023-01-03,Virginia,Pitt,65,68
+2023-01-03,Syracuse,Louisville,70,69
 2023-01-03,Notre Dame,Boston College,63,70
-2023-01-04,Wake Forest,North Carolina,79,88
-2023-01-04,Clemson,Virginia Tech,68,65
 2023-01-04,Miami,Georgia Tech,70,76
 2023-01-04,Duke,NC State,60,84
+2023-01-04,Wake Forest,North Carolina,79,88
+2023-01-04,Clemson,Virginia Tech,68,65
 2023-01-07,Duke,Boston College,65,64
 2023-01-07,Georgia Tech,Florida State,64,75
 2023-01-07,Wake Forest,Louisville,80,72
@@ -1089,15 +1719,15 @@ date,away_team,home_team,away_score,home_score
 2023-01-10,North Carolina,Virginia,58,65
 2023-01-11,Florida State,Wake Forest,75,90
 2023-01-11,Virginia Tech,Syracuse,72,82
-2023-01-11,Louisville,Clemson,70,83
 2023-01-11,Pitt,Duke,69,77
 2023-01-11,Boston College,Miami,72,88
-2023-01-14,Miami,NC State,81,83
+2023-01-11,Louisville,Clemson,70,83
 2023-01-14,Wake Forest,Boston College,85,63
 2023-01-14,Duke,Clemson,64,72
 2023-01-14,Virginia,Florida State,67,58
 2023-01-14,Pitt,Georgia Tech,71,60
 2023-01-14,North Carolina,Louisville,80,59
+2023-01-14,Miami,NC State,81,83
 2023-01-14,Notre Dame,Syracuse,73,78
 2023-01-16,Syracuse,Miami,78,82
 2023-01-17,NC State,Georgia Tech,78,66
@@ -1107,12 +1737,12 @@ date,away_team,home_team,away_score,home_score
 2023-01-18,Pitt,Louisville,75,54
 2023-01-18,Virginia Tech,Virginia,68,78
 2023-01-21,Virginia,Wake Forest,76,67
-2023-01-21,Boston College,Notre Dame,84,72
-2023-01-21,NC State,North Carolina,69,80
 2023-01-21,Florida State,Pitt,71,64
-2023-01-21,Miami,Duke,66,68
+2023-01-21,Boston College,Notre Dame,84,72
 2023-01-21,Virginia Tech,Clemson,50,51
 2023-01-21,Syracuse,Georgia Tech,80,63
+2023-01-21,Miami,Duke,66,68
+2023-01-21,NC State,North Carolina,69,80
 2023-01-23,Duke,Virginia Tech,75,78
 2023-01-24,Georgia Tech,Clemson,51,72
 2023-01-24,Miami,Florida State,86,63
@@ -1120,13 +1750,13 @@ date,away_team,home_team,away_score,home_score
 2023-01-24,North Carolina,Syracuse,72,68
 2023-01-25,Louisville,Boston College,65,75
 2023-01-25,Wake Forest,Pitt,79,81
+2023-01-28,Boston College,Virginia,57,76
 2023-01-28,NC State,Wake Forest,79,77
 2023-01-28,Syracuse,Virginia Tech,70,85
 2023-01-28,Miami,Pitt,68,71
-2023-01-28,Boston College,Virginia,57,76
+2023-01-28,Louisville,Notre Dame,62,76
 2023-01-28,Duke,Georgia Tech,86,43
 2023-01-28,Clemson,Florida State,82,81
-2023-01-28,Louisville,Notre Dame,62,76
 2023-01-30,Virginia,Syracuse,67,62
 2023-01-31,Clemson,Boston College,54,62
 2023-01-31,Wake Forest,Duke,73,75
@@ -1135,54 +1765,54 @@ date,away_team,home_team,away_score,home_score
 2023-02-01,Florida State,NC State,66,94
 2023-02-01,Pitt,North Carolina,65,64
 2023-02-04,Virginia,Virginia Tech,68,74
-2023-02-04,Wake Forest,Notre Dame,81,64
 2023-02-04,Georgia Tech,NC State,64,72
 2023-02-04,Florida State,Louisville,81,78
-2023-02-04,North Carolina,Duke,57,63
+2023-02-04,Wake Forest,Notre Dame,81,64
 2023-02-04,Miami,Clemson,78,74
 2023-02-04,Syracuse,Boston College,77,68
+2023-02-04,North Carolina,Duke,57,63
 2023-02-06,Duke,Miami,59,81
 2023-02-07,Louisville,Pitt,57,91
 2023-02-07,NC State,Virginia,50,63
 2023-02-07,North Carolina,Wake Forest,85,92
-2023-02-08,Syracuse,Florida State,76,67
-2023-02-08,Notre Dame,Georgia Tech,68,70
 2023-02-08,Boston College,Virginia Tech,82,76
-2023-02-11,Georgia Tech,Wake Forest,70,71
+2023-02-08,Notre Dame,Georgia Tech,68,70
+2023-02-08,Syracuse,Florida State,76,67
 2023-02-11,Duke,Virginia,62,69
-2023-02-11,Virginia Tech,Notre Dame,93,87
 2023-02-11,NC State,Boston College,92,62
-2023-02-11,Louisville,Miami,85,93
 2023-02-11,Pitt,Florida State,83,75
+2023-02-11,Louisville,Miami,85,93
 2023-02-11,Clemson,North Carolina,71,91
+2023-02-11,Virginia Tech,Notre Dame,93,87
+2023-02-11,Georgia Tech,Wake Forest,70,71
 2023-02-13,Miami,North Carolina,80,72
+2023-02-14,NC State,Syracuse,72,75
 2023-02-14,Notre Dame,Duke,64,68
 2023-02-14,Boston College,Pitt,58,77
-2023-02-14,NC State,Syracuse,72,75
 2023-02-15,Florida State,Clemson,54,94
 2023-02-15,Virginia Tech,Georgia Tech,70,77
 2023-02-15,Virginia,Louisville,61,58
-2023-02-18,Pitt,Virginia Tech,72,79
-2023-02-18,Notre Dame,Virginia,55,57
-2023-02-18,Duke,Syracuse,77,55
 2023-02-18,Boston College,Florida State,75,69
 2023-02-18,Clemson,Louisville,73,83
 2023-02-18,Wake Forest,Miami,87,96
+2023-02-18,Duke,Syracuse,77,55
+2023-02-18,Notre Dame,Virginia,55,57
+2023-02-18,Pitt,Virginia Tech,72,79
 2023-02-19,North Carolina,NC State,69,77
 2023-02-20,Louisville,Duke,62,79
-2023-02-21,Miami,Virginia Tech,76,70
 2023-02-21,Georgia Tech,Pitt,68,76
+2023-02-21,Miami,Virginia Tech,76,70
 2023-02-22,Wake Forest,NC State,74,90
 2023-02-22,North Carolina,Notre Dame,63,59
 2023-02-22,Virginia,Boston College,48,63
 2023-02-22,Syracuse,Clemson,73,91
-2023-02-25,Notre Dame,Wake Forest,58,66
-2023-02-25,Syracuse,Pitt,82,99
-2023-02-25,Virginia,North Carolina,63,71
 2023-02-25,Virginia Tech,Duke,65,81
+2023-02-25,Louisville,Georgia Tech,67,83
 2023-02-25,Florida State,Miami,85,84
 2023-02-25,Clemson,NC State,96,71
-2023-02-25,Louisville,Georgia Tech,67,83
+2023-02-25,Virginia,North Carolina,63,71
+2023-02-25,Syracuse,Pitt,82,99
+2023-02-25,Notre Dame,Wake Forest,58,66
 2023-02-27,North Carolina,Florida State,77,66
 2023-02-28,NC State,Duke,67,71
 2023-02-28,Virginia Tech,Louisville,71,54
@@ -1193,9 +1823,9 @@ date,away_team,home_team,away_score,home_score
 2023-03-04,Florida State,Virginia Tech,60,82
 2023-03-04,Louisville,Virginia,60,75
 2023-03-04,Wake Forest,Syracuse,63,72
-2023-03-04,Duke,North Carolina,62,57
-2023-03-04,Pitt,Miami,76,78
 2023-03-04,Notre Dame,Clemson,64,87
+2023-03-04,Pitt,Miami,76,78
+2023-03-04,Duke,North Carolina,62,57
 2023-03-04,Georgia Tech,Boston College,73,65
 2023-03-07,Louisville,Boston College,62,80
 2023-03-07,Georgia Tech,Florida State,61,60
@@ -1204,79 +1834,79 @@ date,away_team,home_team,away_score,home_score
 2023-03-08,Boston College,North Carolina,61,85
 2023-03-08,Georgia Tech,Pitt,81,89
 2023-03-08,Wake Forest,Syracuse,77,74
-2023-03-09,North Carolina,Virginia,59,68
-2023-03-09,Wake Forest,Miami,72,74
 2023-03-09,NC State,Clemson,54,80
 2023-03-09,Pitt,Duke,69,96
-2023-03-10,Duke,Miami,85,78
+2023-03-09,Wake Forest,Miami,72,74
+2023-03-09,North Carolina,Virginia,59,68
 2023-03-10,Clemson,Virginia,56,76
+2023-03-10,Duke,Miami,85,78
 2023-03-11,Duke,Virginia,59,49
 2023-12-02,NC State,Boston College,84,78
 2023-12-02,Duke,Georgia Tech,68,72
 2023-12-02,Notre Dame,Miami,49,62
 2023-12-02,Florida State,North Carolina,70,78
 2023-12-02,Syracuse,Virginia,62,84
-2023-12-03,Clemson,Pitt,79,70
 2023-12-03,Louisville,Virginia Tech,68,75
-2023-12-30,Virginia Tech,Wake Forest,63,86
+2023-12-03,Clemson,Pitt,79,70
 2023-12-30,Virginia,Notre Dame,54,76
 2023-12-30,Pitt,Syracuse,73,81
+2023-12-30,Virginia Tech,Wake Forest,63,86
 2024-01-02,Wake Forest,Boston College,84,78
 2024-01-02,Syracuse,Duke,66,86
 2024-01-02,North Carolina,Pitt,70,57
-2024-01-03,NC State,Notre Dame,54,52
-2024-01-03,Georgia Tech,Florida State,71,82
-2024-01-03,Clemson,Miami,82,95
 2024-01-03,Louisville,Virginia,53,77
-2024-01-06,Duke,Notre Dame,67,59
-2024-01-06,Miami,Wake Forest,82,86
-2024-01-06,Virginia,NC State,60,76
+2024-01-03,Clemson,Miami,82,95
+2024-01-03,Georgia Tech,Florida State,71,82
+2024-01-03,NC State,Notre Dame,54,52
+2024-01-06,North Carolina,Clemson,65,55
 2024-01-06,Virginia Tech,Florida State,74,77
 2024-01-06,Boston College,Georgia Tech,95,87
-2024-01-06,North Carolina,Clemson,65,55
 2024-01-06,Pitt,Louisville,83,70
+2024-01-06,Virginia,NC State,60,76
+2024-01-06,Duke,Notre Dame,67,59
+2024-01-06,Miami,Wake Forest,82,86
 2024-01-09,Wake Forest,Florida State,82,87
 2024-01-09,Notre Dame,Georgia Tech,75,68
 2024-01-09,Duke,Pitt,75,53
-2024-01-10,Louisville,Miami,80,71
-2024-01-10,North Carolina,NC State,67,54
 2024-01-10,Boston College,Syracuse,59,69
 2024-01-10,Clemson,Virginia Tech,72,87
+2024-01-10,Louisville,Miami,80,71
+2024-01-10,North Carolina,NC State,67,54
 2024-01-13,Virginia,Wake Forest,47,66
 2024-01-13,Miami,Virginia Tech,75,71
 2024-01-13,Florida State,Notre Dame,67,58
-2024-01-13,NC State,Louisville,89,83
 2024-01-13,Georgia Tech,Duke,79,84
-2024-01-13,Syracuse,North Carolina,67,103
+2024-01-13,NC State,Louisville,89,83
 2024-01-13,Boston College,Clemson,78,89
+2024-01-13,Syracuse,North Carolina,67,103
 2024-01-15,Notre Dame,Boston College,59,63
-2024-01-16,Syracuse,Pitt,69,58
 2024-01-16,Georgia Tech,Clemson,93,90
 2024-01-16,Wake Forest,NC State,76,83
+2024-01-16,Syracuse,Pitt,69,58
 2024-01-17,Virginia Tech,Virginia,57,65
-2024-01-17,Louisville,North Carolina,70,86
 2024-01-17,Florida State,Miami,84,75
+2024-01-17,Louisville,North Carolina,70,86
+2024-01-20,Miami,Syracuse,69,72
+2024-01-20,Clemson,Florida State,78,67
+2024-01-20,Louisville,Wake Forest,65,90
+2024-01-20,Virginia Tech,NC State,84,78
 2024-01-20,North Carolina,Boston College,76,66
 2024-01-20,Pitt,Duke,80,76
-2024-01-20,Clemson,Florida State,78,67
 2024-01-20,Virginia,Georgia Tech,75,66
-2024-01-20,Virginia Tech,NC State,84,78
-2024-01-20,Miami,Syracuse,69,72
-2024-01-20,Louisville,Wake Forest,65,90
 2024-01-22,Wake Forest,North Carolina,64,85
-2024-01-23,Boston College,Virginia Tech,71,76
-2024-01-23,Florida State,Syracuse,85,69
-2024-01-23,Duke,Louisville,83,69
 2024-01-23,Pitt,Georgia Tech,72,64
+2024-01-23,Duke,Louisville,83,69
+2024-01-23,Florida State,Syracuse,85,69
+2024-01-23,Boston College,Virginia Tech,71,76
 2024-01-24,Miami,Notre Dame,73,61
 2024-01-24,NC State,Virginia,53,59
+2024-01-27,Georgia Tech,Virginia Tech,67,91
+2024-01-27,NC State,Syracuse,65,77
 2024-01-27,Boston College,Notre Dame,61,58
 2024-01-27,Pitt,Miami,68,72
-2024-01-27,NC State,Syracuse,65,77
 2024-01-27,North Carolina,Florida State,75,68
 2024-01-27,Clemson,Duke,71,72
 2024-01-27,Virginia,Louisville,69,52
-2024-01-27,Georgia Tech,Virginia Tech,67,91
 2024-01-29,Duke,Virginia Tech,77,67
 2024-01-30,Syracuse,Boston College,75,80
 2024-01-30,Louisville,Clemson,64,70
@@ -1284,27 +1914,27 @@ date,away_team,home_team,away_score,home_score
 2024-01-30,Miami,NC State,68,74
 2024-01-31,Wake Forest,Pitt,72,77
 2024-01-31,Notre Dame,Virginia,53,65
-2024-02-03,Syracuse,Wake Forest,70,99
 2024-02-03,Duke,North Carolina,84,93
 2024-02-03,Georgia Tech,NC State,76,82
 2024-02-03,Notre Dame,Pitt,60,70
 2024-02-03,Florida State,Louisville,92,101
 2024-02-03,Virginia,Clemson,66,65
 2024-02-03,Virginia Tech,Miami,74,82
+2024-02-03,Syracuse,Wake Forest,70,99
 2024-02-05,Miami,Virginia,38,60
-2024-02-06,Florida State,Boston College,63,62
 2024-02-06,Wake Forest,Georgia Tech,80,51
 2024-02-06,Clemson,North Carolina,80,76
+2024-02-06,Florida State,Boston College,63,62
 2024-02-07,Notre Dame,Duke,53,71
 2024-02-07,Pitt,NC State,67,64
 2024-02-07,Louisville,Syracuse,92,94
+2024-02-10,Boston College,Duke,65,80
+2024-02-10,Virginia,Florida State,80,76
+2024-02-10,Georgia Tech,Louisville,67,79
+2024-02-10,North Carolina,Miami,75,72
+2024-02-10,Virginia Tech,Notre Dame,66,74
 2024-02-10,Clemson,Syracuse,77,68
 2024-02-10,NC State,Wake Forest,79,83
-2024-02-10,Virginia Tech,Notre Dame,66,74
-2024-02-10,Georgia Tech,Louisville,67,79
-2024-02-10,Virginia,Florida State,80,76
-2024-02-10,Boston College,Duke,65,80
-2024-02-10,North Carolina,Miami,75,72
 2024-02-12,Wake Forest,Duke,69,77
 2024-02-13,Louisville,Boston College,77,89
 2024-02-13,North Carolina,Syracuse,79,86
@@ -1312,52 +1942,52 @@ date,away_team,home_team,away_score,home_score
 2024-02-13,Florida State,Virginia Tech,75,83
 2024-02-14,Georgia Tech,Notre Dame,55,58
 2024-02-14,Miami,Clemson,60,77
-2024-02-17,Wake Forest,Virginia,47,49
-2024-02-17,Louisville,Pitt,59,86
-2024-02-17,Virginia Tech,North Carolina,81,96
 2024-02-17,Miami,Boston College,77,85
-2024-02-17,Duke,Florida State,76,67
 2024-02-17,NC State,Clemson,78,77
+2024-02-17,Duke,Florida State,76,67
 2024-02-17,Syracuse,Georgia Tech,60,65
+2024-02-17,Virginia Tech,North Carolina,81,96
+2024-02-17,Louisville,Pitt,59,86
+2024-02-17,Wake Forest,Virginia,47,49
 2024-02-19,Virginia,Virginia Tech,41,75
+2024-02-20,Boston College,Florida State,76,84
 2024-02-20,Syracuse,NC State,87,83
 2024-02-20,Pitt,Wake Forest,58,91
-2024-02-20,Boston College,Florida State,76,84
 2024-02-21,Notre Dame,Louisville,72,50
 2024-02-21,Duke,Miami,84,55
 2024-02-21,Clemson,Georgia Tech,81,57
-2024-02-24,Florida State,Clemson,63,74
-2024-02-24,Georgia Tech,Miami,80,76
-2024-02-24,Boston College,NC State,70,81
-2024-02-24,Virginia Tech,Pitt,64,79
-2024-02-24,Notre Dame,Syracuse,85,88
-2024-02-24,North Carolina,Virginia,54,44
 2024-02-24,Duke,Wake Forest,79,83
+2024-02-24,North Carolina,Virginia,54,44
+2024-02-24,Notre Dame,Syracuse,85,88
+2024-02-24,Virginia Tech,Pitt,64,79
+2024-02-24,Georgia Tech,Miami,80,76
+2024-02-24,Florida State,Clemson,63,74
+2024-02-24,Boston College,NC State,70,81
 2024-02-26,Miami,North Carolina,71,75
-2024-02-27,Wake Forest,Notre Dame,65,70
-2024-02-27,Virginia Tech,Syracuse,71,84
 2024-02-27,Pitt,Clemson,62,69
 2024-02-27,NC State,Florida State,83,90
+2024-02-27,Wake Forest,Notre Dame,65,70
+2024-02-27,Virginia Tech,Syracuse,71,84
 2024-02-28,Virginia,Boston College,72,68
 2024-02-28,Louisville,Duke,59,84
-2024-03-02,NC State,North Carolina,70,79
-2024-03-02,Clemson,Notre Dame,62,69
-2024-03-02,Syracuse,Louisville,82,76
 2024-03-02,Wake Forest,Virginia Tech,76,87
+2024-03-02,Clemson,Notre Dame,62,69
+2024-03-02,NC State,North Carolina,70,79
+2024-03-02,Syracuse,Louisville,82,76
 2024-03-02,Virginia,Duke,48,73
 2024-03-02,Pitt,Boston College,90,65
 2024-03-02,Florida State,Georgia Tech,76,85
 2024-03-04,Duke,NC State,79,64
-2024-03-05,Georgia Tech,Wake Forest,70,69
-2024-03-05,Florida State,Pitt,73,88
 2024-03-05,Syracuse,Clemson,75,90
 2024-03-05,Virginia Tech,Louisville,80,64
 2024-03-05,Notre Dame,North Carolina,51,84
+2024-03-05,Florida State,Pitt,73,88
+2024-03-05,Georgia Tech,Wake Forest,70,69
 2024-03-06,Boston College,Miami,67,57
-2024-03-09,Clemson,Wake Forest,76,81
 2024-03-09,Georgia Tech,Virginia,57,72
-2024-03-09,NC State,Pitt,73,81
 2024-03-09,Notre Dame,Virginia Tech,76,82
+2024-03-09,NC State,Pitt,73,81
+2024-03-09,Clemson,Wake Forest,76,81
 2024-03-09,Miami,Florida State,75,83
 2024-03-09,North Carolina,Duke,84,79
 2024-03-09,Boston College,Louisville,67,61
@@ -1365,24 +1995,24 @@ date,away_team,home_team,away_score,home_score
 2024-03-12,Louisville,NC State,85,94
 2024-03-12,Georgia Tech,Notre Dame,80,84
 2024-03-13,Notre Dame,Wake Forest,59,72
+2024-03-13,Florida State,Virginia Tech,86,76
 2024-03-13,Boston College,Clemson,76,55
 2024-03-13,NC State,Syracuse,83,65
-2024-03-13,Florida State,Virginia Tech,86,76
-2024-03-14,Wake Forest,Pitt,69,81
-2024-03-14,Boston College,Virginia,60,66
 2024-03-14,NC State,Duke,74,69
 2024-03-14,Florida State,North Carolina,67,92
-2024-03-15,NC State,Virginia,73,65
+2024-03-14,Wake Forest,Pitt,69,81
+2024-03-14,Boston College,Virginia,60,66
 2024-03-15,Pitt,North Carolina,65,72
+2024-03-15,NC State,Virginia,73,65
 2024-03-16,NC State,North Carolina,84,76
-2024-12-07,Stanford,California,89,81
-2024-12-07,Clemson,Miami,65,55
-2024-12-07,Florida State,NC State,74,84
-2024-12-07,Georgia Tech,North Carolina,65,68
-2024-12-07,Syracuse,Notre Dame,64,69
-2024-12-07,Virginia,SMU,51,63
-2024-12-07,Pitt,Virginia Tech,64,59
 2024-12-07,Boston College,Wake Forest,66,72
+2024-12-07,Virginia,SMU,51,63
+2024-12-07,Syracuse,Notre Dame,64,69
+2024-12-07,Pitt,Virginia Tech,64,59
+2024-12-07,Florida State,NC State,74,84
+2024-12-07,Clemson,Miami,65,55
+2024-12-07,Georgia Tech,North Carolina,65,68
+2024-12-07,Stanford,California,89,81
 2024-12-08,Duke,Louisville,76,65
 2024-12-21,SMU,Boston College,103,77
 2024-12-21,Wake Forest,Clemson,62,73
@@ -1392,39 +2022,39 @@ date,away_team,home_team,away_score,home_score
 2024-12-31,Notre Dame,Georgia Tech,75,86
 2024-12-31,Wake Forest,Syracuse,81,71
 2024-12-31,NC State,Virginia,67,70
-2025-01-01,North Carolina,Louisville,70,83
 2025-01-01,California,Pitt,74,86
 2025-01-01,Miami,Boston College,68,78
 2025-01-01,Stanford,Clemson,71,85
-2025-01-04,California,Clemson,68,80
-2025-01-04,Syracuse,Florida State,74,90
-2025-01-04,Boston College,Georgia Tech,64,85
-2025-01-04,North Carolina,Notre Dame,74,73
-2025-01-04,Stanford,Pitt,68,83
-2025-01-04,Duke,SMU,89,62
-2025-01-04,Louisville,Virginia,70,50
+2025-01-01,North Carolina,Louisville,70,83
 2025-01-04,Miami,Virginia Tech,85,86
+2025-01-04,Syracuse,Florida State,74,90
+2025-01-04,Louisville,Virginia,70,50
 2025-01-04,NC State,Wake Forest,59,77
-2025-01-07,Georgia Tech,Syracuse,55,62
-2025-01-07,SMU,North Carolina,67,82
+2025-01-04,Duke,SMU,89,62
+2025-01-04,California,Clemson,68,80
+2025-01-04,North Carolina,Notre Dame,74,73
+2025-01-04,Boston College,Georgia Tech,64,85
+2025-01-04,Stanford,Pitt,68,83
 2025-01-07,Pitt,Duke,47,76
 2025-01-07,Clemson,Louisville,64,74
+2025-01-07,SMU,North Carolina,67,82
+2025-01-07,Georgia Tech,Syracuse,55,62
 2025-01-08,Virginia,California,61,75
 2025-01-08,Florida State,Miami,80,65
 2025-01-08,Notre Dame,NC State,65,66
 2025-01-08,Virginia Tech,Stanford,59,70
-2025-01-11,North Carolina,NC State,63,61
 2025-01-11,Virginia,Stanford,65,88
-2025-01-11,Louisville,Pitt,82,78
-2025-01-11,Wake Forest,Miami,88,78
 2025-01-11,Georgia Tech,SMU,71,93
+2025-01-11,Louisville,Pitt,82,78
+2025-01-11,North Carolina,NC State,63,61
+2025-01-11,Syracuse,Boston College,79,71
+2025-01-11,Notre Dame,Duke,78,86
 2025-01-11,Florida State,Clemson,57,77
 2025-01-11,Virginia Tech,California,71,68
-2025-01-11,Notre Dame,Duke,78,86
-2025-01-11,Syracuse,Boston College,79,71
+2025-01-11,Wake Forest,Miami,88,78
 2025-01-13,Boston College,Notre Dame,60,78
-2025-01-14,Miami,Duke,54,89
 2025-01-14,Clemson,Georgia Tech,70,59
+2025-01-14,Miami,Duke,54,89
 2025-01-14,Louisville,Syracuse,85,61
 2025-01-15,Stanford,Wake Forest,67,80
 2025-01-15,SMU,Virginia,54,52
@@ -1432,17 +2062,17 @@ date,away_team,home_team,away_score,home_score
 2025-01-15,Pitt,Florida State,70,82
 2025-01-15,California,North Carolina,53,79
 2025-01-18,Wake Forest,Virginia Tech,72,63
-2025-01-18,Duke,Boston College,88,63
-2025-01-18,Georgia Tech,Florida State,78,91
-2025-01-18,Virginia,Louisville,67,81
-2025-01-18,SMU,Miami,117,74
-2025-01-18,California,NC State,65,62
-2025-01-18,Stanford,North Carolina,72,71
 2025-01-18,Clemson,Pitt,78,75
 2025-01-18,Notre Dame,Syracuse,69,77
+2025-01-18,Stanford,North Carolina,72,71
+2025-01-18,Duke,Boston College,88,63
+2025-01-18,SMU,Miami,117,74
+2025-01-18,Georgia Tech,Florida State,78,91
+2025-01-18,California,NC State,65,62
+2025-01-18,Virginia,Louisville,67,81
+2025-01-21,Louisville,SMU,98,73
 2025-01-21,Boston College,Virginia,56,74
 2025-01-21,North Carolina,Wake Forest,66,67
-2025-01-21,Louisville,SMU,98,73
 2025-01-22,Florida State,California,68,77
 2025-01-22,Syracuse,Clemson,72,86
 2025-01-22,Virginia Tech,Georgia Tech,64,71
@@ -1459,102 +2089,102 @@ date,away_team,home_team,away_score,home_score
 2025-01-28,Wake Forest,Louisville,59,72
 2025-01-28,Georgia Tech,Notre Dame,68,71
 2025-01-28,North Carolina,Pitt,65,73
-2025-01-29,Syracuse,Stanford,61,70
 2025-01-29,Virginia Tech,Florida State,76,66
 2025-01-29,Virginia,Miami,82,71
 2025-01-29,California,SMU,65,76
+2025-01-29,Syracuse,Stanford,61,70
+2025-02-01,Stanford,SMU,61,85
+2025-02-01,Pitt,Wake Forest,74,76
 2025-02-01,Virginia Tech,Virginia,75,74
 2025-02-01,Clemson,NC State,68,58
-2025-02-01,Pitt,Wake Forest,74,76
 2025-02-01,Notre Dame,Miami,57,63
-2025-02-01,Stanford,SMU,61,85
-2025-02-01,North Carolina,Duke,70,87
 2025-02-01,Louisville,Georgia Tech,70,77
+2025-02-01,North Carolina,Duke,70,87
 2025-02-01,Syracuse,California,75,66
 2025-02-01,Florida State,Boston College,76,77
 2025-02-03,Virginia,Pitt,73,57
 2025-02-04,Georgia Tech,Clemson,89,86
 2025-02-04,Notre Dame,Florida State,60,67
-2025-02-05,SMU,Virginia Tech,81,75
-2025-02-05,Wake Forest,Stanford,79,73
-2025-02-05,Duke,Syracuse,83,54
 2025-02-05,Louisville,Boston College,84,58
 2025-02-05,NC State,California,62,74
+2025-02-05,Wake Forest,Stanford,79,73
+2025-02-05,Duke,Syracuse,83,54
+2025-02-05,SMU,Virginia Tech,81,75
 2025-02-08,Georgia Tech,Virginia,61,75
-2025-02-08,Wake Forest,California,76,66
-2025-02-08,Duke,Clemson,71,77
-2025-02-08,Miami,Louisville,78,88
-2025-02-08,Pitt,North Carolina,66,67
-2025-02-08,Virginia Tech,Notre Dame,65,63
-2025-02-08,NC State,Stanford,73,74
 2025-02-08,Boston College,Syracuse,86,95
+2025-02-08,NC State,Stanford,73,74
+2025-02-08,Virginia Tech,Notre Dame,65,63
+2025-02-08,Pitt,North Carolina,66,67
+2025-02-08,Miami,Louisville,78,88
+2025-02-08,Duke,Clemson,71,77
+2025-02-08,Wake Forest,California,76,66
 2025-02-10,North Carolina,Clemson,65,85
-2025-02-11,Pitt,SMU,63,83
 2025-02-11,Syracuse,Miami,84,91
+2025-02-11,Pitt,SMU,63,83
 2025-02-12,Notre Dame,Boston College,97,94
 2025-02-12,California,Duke,57,78
 2025-02-12,Stanford,Georgia Tech,52,60
 2025-02-12,Louisville,NC State,91,66
 2025-02-12,Florida State,Wake Forest,72,70
+2025-02-15,North Carolina,Syracuse,88,82
 2025-02-15,Wake Forest,SMU,77,66
 2025-02-15,Virginia,Virginia Tech,73,70
-2025-02-15,North Carolina,Syracuse,88,82
 2025-02-15,Miami,Pitt,65,74
 2025-02-15,California,Georgia Tech,88,90
-2025-02-15,Clemson,Florida State,72,46
 2025-02-15,Stanford,Duke,70,106
 2025-02-15,Boston College,NC State,62,70
+2025-02-15,Clemson,Florida State,72,46
 2025-02-16,Louisville,Notre Dame,75,60
 2025-02-17,Duke,Virginia,80,62
 2025-02-18,Virginia Tech,Boston College,36,54
 2025-02-18,Syracuse,Pitt,69,80
-2025-02-19,NC State,North Carolina,73,97
 2025-02-19,Miami,Florida State,66,74
+2025-02-19,NC State,North Carolina,73,97
 2025-02-19,SMU,Notre Dame,97,73
-2025-02-22,California,Stanford,61,66
 2025-02-22,Clemson,SMU,79,69
-2025-02-22,Virginia,North Carolina,66,81
+2025-02-22,California,Stanford,61,66
 2025-02-22,Pitt,Notre Dame,72,76
+2025-02-22,Virginia,North Carolina,66,81
 2025-02-22,Virginia Tech,Miami,81,68
+2025-02-22,Florida State,Louisville,81,89
 2025-02-22,Georgia Tech,Boston College,54,69
 2025-02-22,Wake Forest,NC State,73,85
-2025-02-22,Florida State,Louisville,81,89
 2025-02-24,North Carolina,Florida State,96,85
 2025-02-25,Duke,Miami,97,60
 2025-02-25,Georgia Tech,Pitt,73,67
 2025-02-25,Louisville,Virginia Tech,71,66
-2025-02-26,NC State,Syracuse,60,74
 2025-02-26,SMU,California,81,77
 2025-02-26,Notre Dame,Clemson,68,83
 2025-02-26,Boston College,Stanford,60,78
+2025-02-26,NC State,Syracuse,60,74
 2025-02-26,Virginia,Wake Forest,83,75
-2025-03-01,Notre Dame,Wake Forest,71,74
-2025-03-01,Syracuse,Virginia Tech,95,101
 2025-03-01,Clemson,Virginia,71,58
 2025-03-01,SMU,Stanford,68,73
+2025-03-01,Syracuse,Virginia Tech,95,101
+2025-03-01,Notre Dame,Wake Forest,71,74
+2025-03-01,Miami,North Carolina,73,92
+2025-03-01,NC State,Georgia Tech,62,87
 2025-03-01,Boston College,California,71,82
 2025-03-01,Pitt,Louisville,68,79
-2025-03-01,NC State,Georgia Tech,62,87
 2025-03-01,Florida State,Duke,65,100
-2025-03-01,Miami,North Carolina,73,92
 2025-03-03,Wake Forest,Duke,60,93
-2025-03-04,North Carolina,Virginia Tech,91,59
-2025-03-04,Florida State,Virginia,57,60
 2025-03-04,Miami,Georgia Tech,74,89
 2025-03-04,Syracuse,SMU,75,77
+2025-03-04,Florida State,Virginia,57,60
+2025-03-04,North Carolina,Virginia Tech,91,59
 2025-03-05,Clemson,Boston College,78,69
 2025-03-05,California,Louisville,68,85
 2025-03-05,Pitt,NC State,63,71
 2025-03-05,Stanford,Notre Dame,54,56
 2025-03-08,Georgia Tech,Wake Forest,43,69
-2025-03-08,Virginia,Syracuse,70,84
 2025-03-08,California,Notre Dame,110,112
-2025-03-08,Duke,North Carolina,82,69
+2025-03-08,Virginia,Syracuse,70,84
 2025-03-08,Boston College,Pitt,67,93
+2025-03-08,NC State,Miami,70,72
 2025-03-08,Stanford,Louisville,48,68
 2025-03-08,SMU,Florida State,69,76
 2025-03-08,Virginia Tech,Clemson,47,65
-2025-03-08,NC State,Miami,70,72
+2025-03-08,Duke,North Carolina,82,69
 2025-03-11,Syracuse,Florida State,66,62
 2025-03-11,Pitt,Notre Dame,54,55
 2025-03-11,California,Virginia Tech,82,73
