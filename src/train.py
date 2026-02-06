@@ -2,16 +2,20 @@ from pathlib import Path
 import json
 import pandas as pd
 import joblib
+
 from sklearn.metrics import mean_absolute_error
 from sklearn.ensemble import HistGradientBoostingRegressor
+
 from features import build_features_for_games
 
 DATA_PATH = Path("data/processed/all_games.csv")
 MODEL_PATH = Path("models/model.pkl")
 FEATS_PATH = Path("models/feature_cols.json")
 
+
 def main():
     df = pd.read_csv(DATA_PATH, parse_dates=["date"])
+    # Safety: ensure chronological order for rolling features / Elo
     df = df.sort_values("date").reset_index(drop=True)
 
     # Build features
@@ -28,6 +32,7 @@ def main():
     X_train, X_val = X.iloc[:split], X.iloc[split:]
     y_train, y_val = y.iloc[:split], y.iloc[split:]
 
+    # MAE-optimized model (trains directly for absolute error)
     model = HistGradientBoostingRegressor(
         loss="absolute_error",
         learning_rate=0.05,
@@ -50,8 +55,8 @@ def main():
     FEATS_PATH.write_text(json.dumps(feature_cols), encoding="utf-8")
 
     print(f"Saved model -> {MODEL_PATH}")
-    print("Validation starts at:", meta.iloc[split]["date"])
     print(f"Saved feature cols -> {FEATS_PATH}")
+
 
 if __name__ == "__main__":
     main()

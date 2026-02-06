@@ -110,7 +110,7 @@ def main():
 
     print(f"Wrote {OUT_PATH}")
 
-    # Debug prints (helpful, doesn’t affect submission file)
+    # Debug prints (helpful, doesn’t aaffect submission file)
     if ood_mask.any():
         ood_games = template.loc[ood_mask, ["Away", "Home", "pt_spread"]]
         print("\nOut-of-domain games damped (no history for at least one team):")
