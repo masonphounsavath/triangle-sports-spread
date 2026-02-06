@@ -19,15 +19,15 @@ def load_team_map() -> dict:
     df = pd.read_csv(TEAM_MAP_PATH)
     mp = {}
     for _, r in df.iterrows():
-        a = str(r["from"]).strip()
-        b = str(r["to"]).strip()
+        a = str(r.get("from", "")).strip()
+        b = str(r.get("to", "")).strip()
         if a and b:
             mp[a] = b
     return mp
 
 
 def norm_team(name: str, mp: dict) -> str:
-    if name is None or (isinstance(name, float) and np.isnan(name)):
+    if name is None:
         return ""
     s = str(name).strip()
     return mp.get(s, s)
@@ -61,6 +61,10 @@ def build_features_for_games(
 
     # rolling histories
     hist_margin = {t: [] for t in teams}
+    # Venue-split rolling margins
+    hist_margin_home = {t: [] for t in teams}  # margins when team played at home
+    hist_margin_away = {t: [] for t in teams}  # margins when team played away
+
     hist_pf = {t: [] for t in teams}
     hist_pa = {t: [] for t in teams}
     last_date = {t: None for t in teams}
@@ -81,15 +85,24 @@ def build_features_for_games(
 
     def roll_stats(team: str):
         m = hist_margin.get(team, [])
+        m_home = hist_margin_home.get(team, [])
+        m_away = hist_margin_away.get(team, [])
         pf = hist_pf.get(team, [])
         pa = hist_pa.get(team, [])
         out = {}
         for w in windows:
             out[f"margin_avg_{w}"] = float(np.mean(m[-w:])) if len(m) else 0.0
             out[f"margin_std_{w}"] = float(np.std(m[-w:])) if len(m) else 0.0
+
+            # Venue-split margin averages (high ROI signal)
+            out[f"margin_home_avg_{w}"] = float(np.mean(m_home[-w:])) if len(m_home) else 0.0
+            out[f"margin_away_avg_{w}"] = float(np.mean(m_away[-w:])) if len(m_away) else 0.0
+
             out[f"pf_avg_{w}"] = float(np.mean(pf[-w:])) if len(pf) else 0.0
             out[f"pa_avg_{w}"] = float(np.mean(pa[-w:])) if len(pa) else 0.0
             out[f"cnt_{w}"] = float(min(len(m), w))
+            out[f"cnt_home_{w}"] = float(min(len(m_home), w))
+            out[f"cnt_away_{w}"] = float(min(len(m_away), w))
         return out
 
     rows_feat = []
@@ -131,6 +144,10 @@ def build_features_for_games(
             feat[f"diff_pa_avg_{w}"] = feat[f"home_pa_avg_{w}"] - feat[f"away_pa_avg_{w}"]
             feat[f"diff_cnt_{w}"] = feat[f"home_cnt_{w}"] - feat[f"away_cnt_{w}"]
 
+            # Venue-split rolling margin aliases (requested naming)
+            feat[f"home_margin_roll_{w}_home"] = feat.get(f"home_margin_home_avg_{w}", 0.0)
+            feat[f"away_margin_roll_{w}_away"] = feat.get(f"away_margin_away_avg_{w}", 0.0)
+
         rows_feat.append(feat)
         rows_y.append(y)
 
@@ -140,6 +157,10 @@ def build_features_for_games(
 
         hist_margin.setdefault(home, []).append(home_margin)
         hist_margin.setdefault(away, []).append(away_margin)
+
+        # Venue-split margin histories
+        hist_margin_home.setdefault(home, []).append(home_margin)
+        hist_margin_away.setdefault(away, []).append(away_margin)
 
         hist_pf.setdefault(home, []).append(home_score)
         hist_pa.setdefault(home, []).append(away_score)
@@ -199,6 +220,10 @@ def build_features_for_matchups(
 
     teams = pd.unique(pd.concat([hist["home_team"], hist["away_team"], subs["Away"], subs["Home"]]))
     hist_margin = {t: [] for t in teams}
+    # Venue-split rolling margins
+    hist_margin_home = {t: [] for t in teams}  # margins when team played at home
+    hist_margin_away = {t: [] for t in teams}  # margins when team played away
+
     hist_pf = {t: [] for t in teams}
     hist_pa = {t: [] for t in teams}
     last_date = {t: None for t in teams}
@@ -217,15 +242,24 @@ def build_features_for_matchups(
 
     def roll_stats(team: str):
         m = hist_margin.get(team, [])
+        m_home = hist_margin_home.get(team, [])
+        m_away = hist_margin_away.get(team, [])
         pf = hist_pf.get(team, [])
         pa = hist_pa.get(team, [])
         out = {}
         for w in windows:
             out[f"margin_avg_{w}"] = float(np.mean(m[-w:])) if len(m) else 0.0
             out[f"margin_std_{w}"] = float(np.std(m[-w:])) if len(m) else 0.0
+
+            # Venue-split margin averages (high ROI signal)
+            out[f"margin_home_avg_{w}"] = float(np.mean(m_home[-w:])) if len(m_home) else 0.0
+            out[f"margin_away_avg_{w}"] = float(np.mean(m_away[-w:])) if len(m_away) else 0.0
+
             out[f"pf_avg_{w}"] = float(np.mean(pf[-w:])) if len(pf) else 0.0
             out[f"pa_avg_{w}"] = float(np.mean(pa[-w:])) if len(pa) else 0.0
             out[f"cnt_{w}"] = float(min(len(m), w))
+            out[f"cnt_home_{w}"] = float(min(len(m_home), w))
+            out[f"cnt_away_{w}"] = float(min(len(m_away), w))
         return out
 
     hist_rows = hist.to_dict("records")
@@ -250,6 +284,10 @@ def build_features_for_matchups(
             # update rolling histories
             hist_margin.setdefault(hm, []).append(margin)
             hist_margin.setdefault(aw, []).append(-margin)
+
+            # Venue-split margin histories
+            hist_margin_home.setdefault(hm, []).append(margin)
+            hist_margin_away.setdefault(aw, []).append(-margin)
 
             hist_pf.setdefault(hm, []).append(hs)
             hist_pa.setdefault(hm, []).append(as_)
@@ -280,10 +318,12 @@ def build_features_for_matchups(
         }
         feat["rest_diff"] = feat["home_rest"] - feat["away_rest"]
 
+        # Elo features (pre-game)
         feat["home_elo"] = float(elo.get(home, 1500.0))
         feat["away_elo"] = float(elo.get(away, 1500.0))
         feat["elo_diff"] = (feat["home_elo"] + elo_home_adv) - feat["away_elo"]
 
+        # rolling features + diffs
         for k, v in home_roll.items():
             feat[f"home_{k}"] = v
         for k, v in away_roll.items():
@@ -296,8 +336,11 @@ def build_features_for_matchups(
             feat[f"diff_pa_avg_{w}"] = feat[f"home_pa_avg_{w}"] - feat[f"away_pa_avg_{w}"]
             feat[f"diff_cnt_{w}"] = feat[f"home_cnt_{w}"] - feat[f"away_cnt_{w}"]
 
+            # Venue-split rolling margin aliases (requested naming)
+            feat[f"home_margin_roll_{w}_home"] = feat.get(f"home_margin_home_avg_{w}", 0.0)
+            feat[f"away_margin_roll_{w}_away"] = feat.get(f"away_margin_away_avg_{w}", 0.0)
+
         out_feats.append(feat)
 
     X = pd.DataFrame(out_feats)
-    feature_cols = list(X.columns)
-    return X, feature_cols
+    return X

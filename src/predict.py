@@ -71,13 +71,17 @@ def main():
 
     # Build features for matchups
     # NOTE: This must match your features.py function signature.
-    X, _ = build_features_for_matchups(
+    out = build_features_for_matchups(
         hist_games=hist,
         matchups=template,
         windows=(5, 10),
         elo_k=20.0,
         elo_home_adv=65.0,
     )
+    if isinstance(out, tuple):
+        X = out[0]
+    else:
+        X = out
 
     # Ensure exact column order & fill missing cols with 0
     X = X.reindex(columns=trained_cols, fill_value=0.0)
